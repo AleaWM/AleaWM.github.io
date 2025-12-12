@@ -1,0 +1,109 @@
+ptaxincent:
+  title: "Current and Future Use of Incentives in Cook County"
+  authors:
+    - GFRC & CMAP team
+  venue: Government Finance Research Center
+  year: 2025
+  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf?utm_medium=email&utm_source=govdelivery
+  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
+revreport:
+  title: "Current Condition and Future Concerns for Growth in Illinois' State"
+  authors: 
+    - me
+    - David Merriman
+    - Jahun Lee
+    - Xiaoyan Hu
+    - Paula R. Worthington
+  year: 2025
+  venue: Institute of Government and Public Affairs
+  github: https://github.com/igpa-uillinois/Fiscal-Futures
+fy24:
+  title: "State of Illinois' FY 2024 Fiscal Situation: A Solid Performance but Threats Remain"
+  authors: 
+    - me
+    - David Merriman
+    - Jahun Lee
+    - Xiaoyan Hu
+    - Paula R. Worthington
+  year: 2025
+  venue: Institute of Government and Public Affairs
+  github: https://github.com/igpa-uillinois/Fiscal-Futures  
+  preprint_url: https://doi.org/10.25417/uic.29873588
+findbal:
+  title: "Finding the Balance: State Fiscal Sustainability and Local Government Challenges"
+  authors: 
+    - me
+    - Francis Choi
+    - Rick Funderburg
+    - Xiaoyan Hu
+    - Paula R. Worthington
+    - Yonghong Wu
+    - Chen Xie
+    - David Merriman
+  year: 2024
+  venue: Institute of Government and Public Affairs
+  preprint_url: https://ssrn.com/abstract=4832279
+  github: https://github.com/igpa-uillinois/Fiscal-Futures
+wfhil:
+  title: "Working from Home in Illinois: Who Can and Who Does?"
+  authors:
+    - me
+    - Francis Choi
+    - Xiaoyan Hu
+    - David Merriman
+  year: 2024
+  venue: Institute of Government and Public Affairs
+  preprint_url: https://ssrn.com/abstract=4721386
+  github: https://aleawm.github.io/WorkFromHome/
+ptaxexeadend:
+  title: "Extended Analysis of Selected Benefits and Costs"
+  authors:
+    - GFRC & CMAP team
+  venue: Government Finance Research Center 
+  year: 2024
+  preprint_url: https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view
+  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
+ptaxexe:
+  title: "Current and Future Use of Homestead Exemptions"
+  authors:
+    - GFRC & CMAP team
+  venue: Government Finance Research Center
+  year: 2024
+  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf
+  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
+opendatamov:
+  title: "What Happened to Illinois' Open Data Movement"
+  year: 2023
+  authors:
+    - Francis Choi
+    - me
+  venue: Institute of Government and Public Affairs
+  preprint_url: https://dx.doi.org/10.2139/ssrn.4563660
+spendfev:
+  title: "Recovering from COVID (Spending) Fever"
+  venue: Institute of Government and Public Affairs
+  authors:
+    - me
+    - Francis Choi
+    - David Merriman
+  year: 2023
+  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf
+  github: https://github.com/igpa-uillinois/Fiscal-Futures
+fy21:
+  title: "Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds"
+  authors:
+    - Francis Choi
+    - me
+  venue: Institute of Government and Public Affairs
+  year: 2023
+  preprint_url: https://dx.doi.org/10.2139/ssrn.4390729
+unempins:
+  title: "Why does Illinois' Unemployment Insurance Trust Fund have a large deficit?"
+  venue: Institute of Government and Public Affairs
+  authors:
+    - David Merriman
+    - Xiaoyan Hu
+    - me
+  year: 2022
+  preprint_url: https://dx.doi.org/10.2139/ssrn.4198350
+
