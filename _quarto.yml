@@ -3,8 +3,9 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - research.qmd
     - fridge.qmd
-    - PublishingWebsiteNotes.qmd
+ 
 
 
 website:
@@ -14,7 +15,7 @@ website:
       - href: index.qmd
         text: "About"
       - fridge.qmd
-      - PublishingWebsiteNotes.qmd
+      - research.qmd
     right: 
       - icon: envelope
         href: awilbu@uic.edu
