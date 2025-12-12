@@ -7,13 +7,12 @@ about:
   template: solana
 ---
 
-:::{#hero-heading}
-
+::: {#hero-heading}
 I spend too much time playing with data and not enough time writing my dissertation! Yay! This is my attempt at making a personal website. I will hopefully make it more "professional" soon.
 
 ## Education
 
-University of Illinois Chicago \| Chicago, IL \
+University of Illinois Chicago \| Chicago, IL\
 PhD Student in Public Administration \| 2019 - Current
 
 University of Illinois Chicago \| Chicago, IL\
@@ -24,30 +23,44 @@ Master of Public Administration \| Sept 2017 - May 2019
 -   Certificate in Emergency Management and Continuity Planning
 -   Certificate in Environmental Studies
 
-University of Wisconsin - Madison \| Madison, WI \
+University of Wisconsin - Madison \| Madison, WI\
 B.S. Economics with Math Emphasis \| Sept 2012 - May 2016
 
 -   Certificate in Environmental Studies
-
 :::
 
+## Current Research
 
-## Research
+**UIC's Government Finance Research Center - Cook County Property Tax Reform Project**
 
-**Cook County Property Taxes**
-
-I am currently working with CMAP and the Cook County people looking at property taxes using data from the Cook County Assessor's Office. I've been insisting on making all data, findings, code, and bonus content publicly available on GitHub. A website with key findings and tables [can be found here!](https://aleawm.github.io/CookCounty-PropertyTaxes/)
+I am currently working with CMAP and the Cook County people looking at property taxes using data from the Cook County Assessor's Office. I've been insisting on making all data, findings, code, and bonus content publicly available on GitHub. A website with key findings and tables [can be found here!](https://github.com/uic-gfrc/CookCounty-PropertyTaxes). This research has resulted in three reports released by Cook County and influenced State legislation.
 
 **Fiscal Futures Project**
 
-My little legacy is this GitHub Site and Repository! I joined Fiscal Futures Project in 2021 and transformed the inherited Stata code into R code, while finding errors in past methodology and updating the methodology for the project. Was I asked to do this? No, but I have no chill. What began as personal documentation to track coding logic and my deep dives into the data slowly warped into an RPubs site and then became a full-blown GitHub website.
-
+My little legacy is this GitHub Site and Repository! I joined Fiscal Futures Project in 2021 and transformed the inherited Stata code into R code, while finding errors in past methodology and updating the methodology for the project. Was I asked to do this? No, but I have no chill. What began as personal documentation to track coding logic and my deep dives into the data slowly warped into an RPubs site and then became a [full-blown GitHub website](https://github.com/igpa-uillinois/Fiscal-Futures).
 
 ## Recent Publications:
 
-FY23 Fiscal Futures Annual Report: *Forthcoming March 2024*
+Wilbur-Mujtaba, A., Merriman, D., Funderburg, R. Hu,H., Lee, J., Worthington, Paula. _Forthcoming_ Current Condition and Future Concerns for Growth in Illinois' State 
 
-Working from Home in Illinois: Who Can and Who Does? by Alea Wilbur-Mujtaba, Francis Choi, Xiaoyan Hu, and David Merriman. February 2024. Institute of Government Affairs. <https://igpa.uillinois.edu/reports/working-from-home-in-illinois-who-can-and-does>.
+
+Drucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2025). The Current and Future Use of Incentives in Cook County. <https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf?utm_medium=email&utm_source=govdelivery>
+
+
+Merriman, D., Funderburg, R. Hu,H., Lee, J., Wilbur-Mujtaba, A., Worthington, Paula. (2025) The State of Illinois' FY 2024 Fiscal Situation: A Solid Performance but Threats Remain. <https://doi.org/10.25417/uic.29873588>
+
+
+
+Drucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2024). Extended Analysis of Selected Benefits and Costs. Governemnt Finance Research Center. <https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view?usp=sharing>
+
+
+Drucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2023). Current and Future Use of Homestead Exemptions.  <https://drive.google.com/file/d/1nqprvzF24RnnIrqCbweiH-f3U8EnCIfX/view?usp=sharing>
+
+
+
+Finding the Balance: State Fiscal Sustainability and Local Government Challenges, by Alea Wilbur-Mujtaba, Francis Choi, Rick Funderburg, Xiaoyan Hu, Paula R. Worthington, Yonghong Wu, Chen Xie, & David Merriman. May 2024.  Institute of Government and Public Affairs. <https://igpa.uillinois.edu/reports/finding-the-balance-state-fiscal-sustainability-and-local-government-fiscal-challenges>.
+
+Working from Home in Illinois: Who Can and Who Does? by Alea Wilbur-Mujtaba, Francis Choi, Xiaoyan Hu, and David Merriman. February 2024. Institute of Government and Public Affairs. <https://igpa.uillinois.edu/reports/working-from-home-in-illinois-who-can-and-does>.
 
 -   Website containing replication code, additional images, and appendix items can be found on [this GitHub site](https://aleawm.github.io/WorkFromHome/).
 
@@ -56,5 +69,3 @@ Read the FY22 Fiscal Futures Annual Report: [Recovering From a (COVID) Spending 
 -   Recovering from a COVID (Spending) Fever by Alea Wilbur-Mujtaba, Francis Choi, and David Merriman. (2023). Institute of Government and Public Affairs. <https://igpa.uillinois.edu/wp-content/uploads/2023/03/IGPA_FiscalFuturesCOVID_FeverD.pdf>.
 
 -   Check out the website and download the data here: [The Fiscal Futures Project](https://aleawm.github.io/Fiscal-Futures/)
-
-
