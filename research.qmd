@@ -1,0 +1,132 @@
+---
+title: "Papers"
+echo: false
+section-divs: false
+keep-md: true
+listing:
+  contents: 
+    - papers.yaml
+---
+
+
+```{r}
+library(yaml)
+library(htmltools)
+
+readable_list <- function(s) {
+  if (length(s) < 3) {
+    return(paste(s, collapse = " and "))
+  } else {
+    a <- head(s, -1)
+    b <- tail(s, 1)
+    return(paste(paste(a, collapse = ", "), b, sep = ", and "))
+  }
+}
+
+# button <- function(url, str, icon) {
+#   icon_base <- substr(icon, 1, 2)
+#   return(tags$a(class = "btn btn-outline-dark btn-sm", href = url, target = "_blank", 
+#                 rel = "noopener noreferrer",
+#                 tags$i(class = paste(icon_base, icon), role = "img", `aria-label` = str),
+#                 str))
+# }
+
+button <- function(url, str, icon) {
+  icon_base <- substr(icon, 1, 2)
+  HTML(sprintf('<a class="btn btn-outline-dark btn-sm" href="%s" target="_blank" rel="noopener noreferrer">
+        <i class="%s %s" role="img" aria-label="%s"></i>
+        %s
+    </a>', url, icon_base, icon, str, str))
+}
+yaml_data <- yaml.load_file("papers.yaml")
+
+## research papers go to pubs,
+## working papers, like cmap reports, go to working papers
+pub_strs <- list(pubs = list(), wps = list())
+
+for (data in yaml_data) {
+  title_str <- data$title
+  authors <- if (!is.null(data$authors)) data$authors else c("me")
+  authors <- sapply(authors, function(aut) if (aut == "me") "<strong>Alea Wilbur-Mujtaba</strong>" else aut)
+  author_str <- readable_list(authors)
+  year_str <- as.character(data$year)
+  
+  buttons <- list()
+  # preprint <- data$preprint_url
+  # 
+  # if (!is.null(preprint)) {
+  #   buttons <- append(buttons, list(button(preprint, "Preprint", "bi-file-earmark-pdf"
+  #                                          ))) 
+  # }
+  
+  github <- data$github
+  if (!is.null(github)) {
+    buttons <- append(buttons, list(button(github, "Github", "bi-github")))
+  }
+  # 
+   pub_url <- data$preprint_url
+   venue <- data$venue
+  working_paper <- is.null(pub_url)
+
+  
+  pub_str <- paste(author_str, ". (", year_str, "). \"", title_str, ".\"", sep = "")
+
+        # if it has a venue, then add the venue to the string  
+  if (!is.null(venue)) {
+    pub_str <- paste(pub_str, " <em>", venue, ".", "</em>", sep = "")
+  }
+  
+
+  if (working_paper) {
+    if (is.null(pub_strs$wps[[year_str]])) {
+      pub_strs$wps[[year_str]] <- list()
+    }
+   buttons <- append(buttons, list(button(pub_url, "Published Papers", "bi-file-earmark-pdf")))
+    pub_strs$wps[[year_str]] <- append(pub_strs$wps[[year_str]],
+                                       list(tags$li(class = "list-group-item", HTML(pub_str), tags$br(),
+                                                    HTML(paste(buttons, collapse = " ")))))
+  }
+  else {
+   if (is.null(pub_strs$pubs[[year_str]])) {
+     pub_strs$pubs[[year_str]] <- list()
+   }
+   buttons <- append(buttons, list(button(pub_url, "Read Paper", "bi-file-earmark-pdf")))
+   pub_strs$pubs[[year_str]] <- append(pub_strs$pubs[[year_str]],
+                                       list(tags$li(class = "list-group-item", HTML(pub_str), tags$br(),
+                                                    HTML(paste(buttons, collapse = " ")))))
+  }
+}
+
+```
+
+
+
+```{r}
+#| label: published-year
+#| id: published-year
+#| output: asis
+
+
+for (year in sort(names(pub_strs$pubs), decreasing = TRUE)) {
+  cat(paste0("### ", year, " {#published-", year, "}"), "\n")
+  html <- tags$ul(class = 'list-group list-group-flush', pub_strs$pubs[[year]])
+  cat(as.character(html), "\n")
+}
+
+```
+
+
+```{r include=FALSE, eval=FALSE}
+#| label: not-published-year
+#| id: not-published-year
+#| output: asis
+
+for (year in sort(names(pub_strs$wps), decreasing = TRUE)) {
+  cat(paste0("### ", year, " {#working-papers-", year, "}"), "\n")
+  html <- tags$ul(class = 'list-group list-group-flush', pub_strs$wps[[year]])
+  cat(as.character(html), "\n")
+}
+
+```
+
+
