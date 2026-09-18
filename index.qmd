@@ -48,7 +48,7 @@ From individual properties to state budgets: a few ways I connect data, methods,
 ::: {#featured}
 :::
 
-[View all six projects →](projects/index.qmd){.text-link}
+[View all projects →](projects/index.qmd){.text-link}
 
 ::: {.focus-band}
 ::: {.focus-item}
@@ -68,5 +68,5 @@ Documented R workflows, automated reports, and public research websites.
 ::: {.closing-note}
 ## A closer look
 
-My work spans collaborative policy research, independent data products, and teaching. [Read about my background](about.qmd) or [download my résumé](files/Alea-Wilbur-Mujtaba-Resume.docx).
+My work spans collaborative policy research, independent data products, and teaching. [Read about my background](about.qmd).
 :::
