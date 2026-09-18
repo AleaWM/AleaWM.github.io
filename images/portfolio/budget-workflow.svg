@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">From annual records to research data</title><desc id="desc">Annual Comptroller files are reconciled across years, labeled and classified, then exported as separate revenue and expenditure datasets.</desc>
+<rect width="960" height="600" fill="#edf3ef"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#163f3b">
+<text x="480" y="63" font-size="19" letter-spacing="3">ILLINOIS STATE BUDGET DATA</text>
+<rect x="220" y="95" width="520" height="86" rx="8" fill="#fff" stroke="#a9c0b6"/><text x="480" y="134" font-size="25">Annual Comptroller records</text><text x="480" y="162" font-size="17">Revenue and expenditure files · FY1998–2026</text>
+<path d="M480 181v39m-8-10 8 10 8-10" fill="none" stroke="#316e64" stroke-width="3"/>
+<rect x="220" y="220" width="520" height="80" rx="8" fill="#fff" stroke="#a9c0b6"/><text x="480" y="254" font-size="24">Reconcile across years</text><text x="480" y="281" font-size="17">Agencies · reused fund numbers · source labels</text>
+<path d="M480 300v39m-8-10 8 10 8-10" fill="none" stroke="#316e64" stroke-width="3"/>
+<rect x="220" y="340" width="520" height="80" rx="8" fill="#fff" stroke="#a9c0b6"/><text x="480" y="373" font-size="24">Classify and document</text><text x="480" y="401" font-size="17">Analytical categories · inclusion rules · quality checks</text>
+<path d="M480 420v25H265v29m215-29h215v29" fill="none" stroke="#316e64" stroke-width="3"/>
+<rect x="90" y="475" width="350" height="74" rx="8" fill="#163f3b"/><rect x="520" y="475" width="350" height="74" rx="8" fill="#163f3b"/>
+<text x="265" y="520" font-size="23" fill="white">Revenue dataset</text><text x="695" y="520" font-size="23" fill="white">Expenditure dataset</text>
+</g></svg>

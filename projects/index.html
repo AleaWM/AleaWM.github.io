@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research &amp; Publications – Alea Wilbur-Mujtaba</title>
+<title>Projects – Alea Wilbur-Mujtaba</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,27 +26,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dd7ba6b9ab4d2882b7168321f167beef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0fc2e74523aae79a7ae7792fbbaa6b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-dd7ba6b9ab4d2882b7168321f167beef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dd7ba6b9ab4d2882b7168321f167beef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-0fc2e74523aae79a7ae7792fbbaa6b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dd7ba6b9ab4d2882b7168321f167beef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,9 +76,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-portfolio .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-portfolio'] = new List('listing-portfolio', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -248,7 +308,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Alea Wilbur-Mujtaba</span>
     </a>
   </div>
@@ -259,19 +319,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research &amp; Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About &amp; CV</span></a>
   </li>  
 </ul>
@@ -300,36 +360,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#policy-reports" id="toc-policy-reports" class="nav-link active" data-scroll-target="#policy-reports">Policy reports &amp; research papers</a></li>
-  <li><a href="#submitted-manuscripts" id="toc-submitted-manuscripts" class="nav-link" data-scroll-target="#submitted-manuscripts">Submitted manuscripts</a></li>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working papers</a></li>
-  <li><a href="#dissertation" id="toc-dissertation" class="nav-link" data-scroll-target="#dissertation">Dissertation</a></li>
-  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
-  <li><a href="#data-replication-materials" id="toc-data-replication-materials" class="nav-link" data-scroll-target="#data-replication-materials">Data &amp; replication materials</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research &amp; Publications</h1>
-<p class="subtitle lead">Papers, policy reports, and the materials behind them.</p>
+<h1 class="title">Projects</h1>
+<p class="subtitle lead">My professional fridge: research, data, and things I’ve built.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -341,58 +388,174 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My research spans public finance, property taxation, flood risk, and government data. Reports and manuscripts are grouped by type below; project pages describe my contributions and link to replication materials.</p>
-<section id="policy-reports" class="level2">
-<h2 class="anchored" data-anchor-id="policy-reports">Policy reports &amp; research papers</h2>
-<article class="publication" id="pub-expenditures"><h3 class="anchored">Illinois’ State Expenditures: Current Condition and Future Concerns</h3><p class="pub-authors">Merriman, D., Wilbur-Mujtaba, A., &amp; Lee, J. <span class="pub-year">(2026)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><p class="pub-summary">Examines Illinois state spending and concerns for future fiscal conditions.</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.32035311">Read paper<span class="visually-hidden">: Illinois’ State Expenditures: Current Condition and Future Concerns</span> →</a></div></article>
-<article class="publication" id="pub-revenue"><h3 class="anchored">Current Condition and Future Concerns for Growth in Illinois’ State Revenue</h3><p class="pub-authors">Wilbur-Mujtaba, A., Merriman, D., Hu, X., Lee, J., &amp; Worthington, P. <span class="pub-year">(2025)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><p class="pub-summary">Examines the condition and growth prospects of Illinois state revenue.</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.32248659">Read paper<span class="visually-hidden">: Current Condition and Future Concerns for Growth in Illinois’ State Revenue</span> →</a></div></article>
-<article class="publication" id="pub-incentives"><h3 class="anchored">The Current and Future Use of Incentives in Cook County</h3><p class="pub-authors">Drucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2025)</span></p><p class="pub-venue">Cook County Property Tax Reform Group</p><p class="pub-summary">Research on commercial and industrial property-tax incentives.</p><div class="pub-links"><a href="https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf">Read paper<span class="visually-hidden">: The Current and Future Use of Incentives in Cook County</span> →</a><a href="projects/property-tax/index.html">Project overview<span class="visually-hidden">: The Current and Future Use of Incentives in Cook County</span> →</a></div></article>
-<article class="publication" id="pub-fy2024"><h3 class="anchored">The State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain</h3><p class="pub-authors">Merriman, D., Funderburg, R., Hu, X., Lee, J., Wilbur-Mujtaba, A., &amp; Worthington, P. <span class="pub-year">(2025)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><p class="pub-summary">An assessment of Illinois fiscal performance and continuing risks.</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.29873588">Read paper<span class="visually-hidden">: The State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain</span> →</a></div></article>
-<article class="publication" id="pub-balance"><h3 class="anchored">Finding the Balance: State Fiscal Sustainability and Local Government Challenges</h3><p class="pub-authors">Wilbur-Mujtaba, A., Choi, F., Funderburg, R., Hu, X., Worthington, P. R., Wu, Y., Xie, C., &amp; Merriman, D. <span class="pub-year">(2024)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.26195198">Read paper<span class="visually-hidden">: Finding the Balance: State Fiscal Sustainability and Local Government Challenges</span> →</a></div></article>
-<article class="publication" id="pub-benefits-costs"><h3 class="anchored">Extended Analysis of Selected Benefits and Costs</h3><p class="pub-authors">Drucker, J., Merriman, D., Van Hulle, M., Weber, R., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2024)</span></p><p class="pub-venue">Government Finance Research Center</p><div class="pub-links"><a href="https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view">Read paper<span class="visually-hidden">: Extended Analysis of Selected Benefits and Costs</span> →</a><a href="projects/property-tax/index.html">Project overview<span class="visually-hidden">: Extended Analysis of Selected Benefits and Costs</span> →</a></div></article>
-<article class="publication" id="pub-remote-work"><h3 class="anchored">Working from Home in Illinois: Who Can and Does?</h3><p class="pub-authors">Wilbur-Mujtaba, A., Choi, F., Hu, X., &amp; Merriman, D. <span class="pub-year">(2024)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><p class="pub-summary">Research on the capacity for remote work and observed work-from-home patterns.</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.26018719">Read paper<span class="visually-hidden">: Working from Home in Illinois: Who Can and Does?</span> →</a><a href="https://aleawm.github.io/WorkFromHome/">Research materials<span class="visually-hidden">: Working from Home in Illinois: Who Can and Does?</span> →</a></div></article>
-<article class="publication" id="pub-homestead"><h3 class="anchored">Current and Future Use of Homestead Exemptions</h3><p class="pub-authors">Drucker, J., Merriman, D., Van Hulle, M., Weber, R., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2023)</span></p><p class="pub-venue">Government Finance Research Center</p><div class="pub-links"><a href="https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf">Read paper<span class="visually-hidden">: Current and Future Use of Homestead Exemptions</span> →</a><a href="projects/property-tax/index.html">Project overview<span class="visually-hidden">: Current and Future Use of Homestead Exemptions</span> →</a></div></article>
-<article class="publication" id="pub-open-data"><h3 class="anchored">What Happened to Illinois’ Open Data Movement</h3><p class="pub-authors">Choi, F., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2023)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.24093753">Read paper<span class="visually-hidden">: What Happened to Illinois’ Open Data Movement</span> →</a></div></article>
-<article class="publication" id="pub-covid-spending"><h3 class="anchored">Recovering from COVID (Spending) Fever</h3><p class="pub-authors">Wilbur-Mujtaba, A., Choi, F., &amp; Merriman, D. <span class="pub-year">(2023)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.22296901">Read paper<span class="visually-hidden">: Recovering from COVID (Spending) Fever</span> →</a><a href="projects/fiscalfutures/index.html">Project overview<span class="visually-hidden">: Recovering from COVID (Spending) Fever</span> →</a></div></article>
-<article class="publication" id="pub-fy2021"><h3 class="anchored">Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds</h3><p class="pub-authors">Choi, F., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2023)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.22296895">Read paper<span class="visually-hidden">: Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds</span> →</a></div></article>
-<article class="publication" id="pub-unemployment"><h3 class="anchored">Why Does Illinois’ Unemployment Insurance Trust Fund Have a Large Deficit?</h3><p class="pub-authors">Merriman, D., Hu, X., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2022)</span></p><p class="pub-venue">Institute of Government and Public Affairs</p><div class="pub-links"><a href="https://doi.org/10.25417/uic.20559039">Read paper<span class="visually-hidden">: Why Does Illinois’ Unemployment Insurance Trust Fund Have a Large Deficit?</span> →</a></div></article>
+<p>These projects show both the research and the work behind it: reconciling messy records, choosing a useful unit of analysis, and making results easier to explore. Open a project for my role, selected outputs, and links to the full materials.</p>
+<div id="listing-portfolio" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U3BhdGlhbCUyMGFuYWx5c2lzJTJDQ2F1c2FsJTIwaW5mZXJlbmNl" data-listing-file-modified-sort="1789703620205" data-listing-reading-time-sort="3" data-listing-word-count-sort="440">
+<a href="../projects/flood-risk/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/targets-pipeline.png" class="thumbnail-image card-img" style="height: 230px;" alt="Flood Risk &amp; Housing Markets research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Flood Risk &amp; Housing Markets
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BhdGlhbCUyMGFuYWx5c2lz'); return false;">Spatial analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwaW5mZXJlbmNl'); return false;">Causal inference</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Linking property sales, flood maps, and risk information to study housing markets in Cook County.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHVibGljJTIwZmluYW5jZSUyQ1BvbGljeSUyMGFuYWx5c2lz" data-listing-file-modified-sort="1789703620174" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
+<a href="../projects/property-tax/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/property-tax.png" class="thumbnail-image card-img" style="height: 230px;" alt="Cook County Property Tax Reform research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cook County Property Tax Reform
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwZmluYW5jZQ=='); return false;">Public finance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9saWN5JTIwYW5hbHlzaXM='); return false;">Policy analysis</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Reproducible analysis of exemptions, incentives, and who bears the property-tax burden.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RGF0YSUyMGVuZ2luZWVyaW5nJTJDUmVzZWFyY2glMjB0b29scw==" data-listing-file-modified-sort="1789703620189" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+<a href="../projects/commercial-industrial/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/development-groups.png" class="thumbnail-image card-img" style="height: 230px;" alt="From Parcels to Development Projects research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+From Parcels to Development Projects
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMGVuZ2luZWVyaW5n'); return false;">Data engineering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjB0b29scw=='); return false;">Research tools</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Connecting related PINs into documented commercial and industrial developments, with a searchable public website.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UGFuZWwlMjBkYXRhJTJDUHVibGljJTIwZmluYW5jZQ==" data-listing-file-modified-sort="1789703620205" data-listing-reading-time-sort="3" data-listing-word-count-sort="437">
+<a href="../projects/levy-responsiveness/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/levy-trends.png" class="thumbnail-image card-img" style="height: 230px;" alt="Local Government Levy Responsiveness research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Local Government Levy Responsiveness
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFuZWwlMjBkYXRh'); return false;">Panel data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwZmluYW5jZQ=='); return false;">Public finance</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Building a panel of taxing agencies to examine how levies respond to changes in the property-tax base.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="U3RhdGUlMjBidWRnZXRzJTJDUmVwcm9kdWNpYmlsaXR5" data-listing-file-modified-sort="1789703620220" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
+<a href="../projects/fiscalfutures/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/fiscal-methodology.png" class="thumbnail-image card-img" style="height: 230px;" alt="Fiscal Futures research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fiscal Futures
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGUlMjBidWRnZXRz'); return false;">State budgets</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVwcm9kdWNpYmlsaXR5'); return false;">Reproducibility</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Data, methodology, and reproducible reporting behind recurring research on Illinois state finances.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="T3BlbiUyMGRhdGElMkNEYXRhJTIwZW5naW5lZXJpbmc=" data-listing-file-modified-sort="1789703796529" data-listing-reading-time-sort="3" data-listing-word-count-sort="593">
+<a href="../projects/illinois-budget/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/portfolio/budget-workflow.svg" class="thumbnail-image card-img" style="height: 230px;" alt="Illinois State Budget Research Dataset research illustration">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Illinois State Budget Research Dataset
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMGRhdGE='); return false;">Open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMGVuZ2luZWVyaW5n'); return false;">Data engineering</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Harmonized revenue and expenditure records for FY1998–2026, with reusable classifications and documented decisions.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="also-on-the-fridge" class="level2">
+<h2 class="anchored" data-anchor-id="also-on-the-fridge">Also on the fridge</h2>
+<div class="secondary-work">
+<section id="working-from-home-in-illinois" class="level3">
+<h3 class="anchored" data-anchor-id="working-from-home-in-illinois">Working from home in Illinois</h3>
+<p>Research on who can work remotely and who does, with replication materials and a public-radio interview about the findings.</p>
+<p><a href="https://doi.org/10.25417/uic.26018719">Read the report</a> · <a href="https://aleawm.github.io/WorkFromHome/">Explore the analysis</a> · <a href="https://www.wglt.org/local-news/2024-02-16/mclean-county-has-high-potential-for-work-from-home-permanence">WGLT interview</a></p>
 </section>
-<section id="submitted-manuscripts" class="level2">
-<h2 class="anchored" data-anchor-id="submitted-manuscripts">Submitted manuscripts</h2>
-<article class="publication" id="pub-tax-relief"><h3 class="anchored">The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives?</h3><p class="pub-authors">Drucker, J., Weber, R., Van Hulle, M., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2026)</span></p><p class="pub-venue">Urban Affairs Review</p><p class="pub-status">Revised and resubmitted; under review</p><div class="pub-links"><a href="projects/property-tax/index.html">Project overview<span class="visually-hidden">: The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives?</span> →</a></div></article>
+<section id="emergency-management-public-communication" class="level3">
+<h3 class="anchored" data-anchor-id="emergency-management-public-communication">Emergency management &amp; public communication</h3>
+<p>During my 2020 internship with Chicago’s Office of Emergency Management and Communications, I analyzed operational data for situation reports and created visualizations supporting the city’s COVID-19 response.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/portfolio/testing-sites.png" class="supporting-map img-fluid figure-img" width="420"></p>
+<figcaption>Chicago COVID-19 testing locations, with circle sizes indicating the number of tests as of July 30, 2020.</figcaption>
+</figure>
+</div>
 </section>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
-<article class="publication" id="pub-levy"><h3 class="anchored">Measuring Local Government Levies’ Responsiveness to the Property Tax Base</h3><p class="pub-authors">Merriman, D., &amp; Wilbur-Mujtaba, A. <span class="pub-year">(2026)</span></p><p class="pub-venue">Working research</p><div class="pub-links"><a href="https://aleawm.github.io/Levy_Elasticity/">Research materials<span class="visually-hidden">: Measuring Local Government Levies’ Responsiveness to the Property Tax Base</span> →</a><a href="projects/levy-responsiveness/index.html">Project overview<span class="visually-hidden">: Measuring Local Government Levies’ Responsiveness to the Property Tax Base</span> →</a></div></article>
+<section id="teaching-programming-for-public-policy" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-programming-for-public-policy">Teaching programming for public policy</h3>
+<p>I designed and taught <strong>Programming and Data Analysis for Public Policy</strong> at UIC in Fall 2021, developing policy-focused datasets, lessons, and exercises in R. <a href="../about.html">More about my teaching and experience</a>.</p>
 </section>
-<section id="dissertation" class="level2">
-<h2 class="anchored" data-anchor-id="dissertation">Dissertation</h2>
-<article class="publication" id="pub-dissertation"><h3 class="anchored">Risk Perception and Real Estate Values in Cook County, Illinois</h3><p class="pub-authors">Wilbur-Mujtaba, A. <span class="pub-year">(2026)</span></p><p class="pub-venue">Doctoral dissertation, University of Illinois Chicago</p><div class="pub-links"><a href="https://aleawm.github.io/dissertation/">Research materials<span class="visually-hidden">: Risk Perception and Real Estate Values in Cook County, Illinois</span> →</a><a href="projects/flood-risk/index.html">Project overview<span class="visually-hidden">: Risk Perception and Real Estate Values in Cook County, Illinois</span> →</a></div></article>
-</section>
-<section id="presentations" class="level2">
-<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
-<section id="upcoming" class="level3">
-<h3 class="anchored" data-anchor-id="upcoming">Upcoming</h3>
-<ul>
-<li><strong>November 2026 · National Tax Association, Philadelphia.</strong> <em>Risk Perception and Real Estate Values in Cook County, Illinois.</em> Alea Wilbur-Mujtaba. Scheduled presentation.</li>
-<li><strong>November 2026 · National Tax Association, Philadelphia.</strong> <em>Measuring Local Government Levies’ Responsiveness to the Property Tax Base.</em> David Merriman and Alea Wilbur-Mujtaba. Scheduled presentation.</li>
-<li><strong>September 25, 2026 · Association for Budgeting &amp; Financial Management, Washington, DC.</strong> <em>Measuring Local Government Levies’ Responsiveness to the Property Tax Base.</em> David Merriman and Alea Wilbur-Mujtaba. Scheduled presentation.</li>
-</ul>
-</section>
-<section id="completed" class="level3">
-<h3 class="anchored" data-anchor-id="completed">Completed</h3>
-<ul>
-<li><strong>June 10–12, 2026 · Mid-Continent Regional Science Association, Chicago.</strong> <em>Measuring Local Government Levies’ Responsiveness to the Property Tax Base.</em> David Merriman, Alea Wilbur-Mujtaba, and Michael Van Hulle.</li>
-<li><strong>November 2025 · North American Regional Science Council, Denver.</strong> <em>The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives?</em> Joshua Drucker, Rachel Weber, Michael Van Hulle, and Alea Wilbur-Mujtaba.</li>
-<li><strong>November 2024 · National Tax Association, Detroit.</strong> <em>Measuring Local Government Levies’ Responsiveness to the Property Tax Base.</em> Michael P. Van Hulle, Alea Wilbur-Mujtaba, and David Merriman.</li>
-<li><strong>October 2024 · Association for Budgeting &amp; Financial Management, Cleveland.</strong> <em>The Distributional Politics of Fragmented Incentives: When Economic Development Turns Fiscal.</em> Michael P. Van Hulle, Alea Wilbur-Mujtaba, and David Merriman.</li>
-</ul>
-</section>
-</section>
-<section id="data-replication-materials" class="level2">
-<h2 class="anchored" data-anchor-id="data-replication-materials">Data &amp; replication materials</h2>
-<p>Research outputs also include datasets, documentation, and maintained replication websites. <a href="./projects/index.html">Explore the project pages</a> for these resources and archived releases.</p>
-<p><span class="small-note">Publication and presentation statuses updated September 2026.</span></p>
+</div>
+
 
 
 </section>

@@ -1,6 +1,21 @@
 [
   {
-    "listing": "/research.html",
-    "items": []
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/flood-risk/index.html",
+      "/projects/property-tax/index.html",
+      "/projects/commercial-industrial/index.html",
+      "/projects/levy-responsiveness/index.html",
+      "/projects/fiscalfutures/index.html",
+      "/projects/illinois-budget/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/flood-risk/index.html",
+      "/projects/property-tax/index.html",
+      "/projects/commercial-industrial/index.html"
+    ]
   }
 ]

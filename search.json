@@ -1,51 +1,429 @@
 [
   {
-    "objectID": "fridge.html",
-    "href": "fridge.html",
-    "title": "Things on My Fridge",
+    "objectID": "projects/property-tax/index.html",
+    "href": "projects/property-tax/index.html",
+    "title": "Cook County Property Tax Reform",
     "section": "",
-    "text": "Things I would hang on my fridge:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI made a really cool loop that calculates tax rates, levies, taxable EAV, etc. for various geographies using data tables from the PTAXSIM package. It’s not a pretty picture, but it is one of the most efficient code items I’ve ever made and I’m still impressed that I did it. Click this link to be underwhelmed by code that does impressive things!\nI also did a radio interview on the Working From Home paper: - Radio Interview Schlenker, Charlie. (2024, February 16). McLean County has high potential for work-from-home permanence. [Radio broadcast]. WGLT NPR. Listen and Read Here!."
+    "text": "← All projects"
   },
   {
-    "objectID": "fridge.html#projects",
-    "href": "fridge.html#projects",
-    "title": "Things on My Fridge",
+    "objectID": "projects/property-tax/index.html#the-question",
+    "href": "projects/property-tax/index.html#the-question",
+    "title": "Cook County Property Tax Reform",
+    "section": "The question",
+    "text": "The question\nHow do residential exemptions and commercial and industrial incentives change the property-tax base and the distribution of tax burdens? This collaborative research supported the Cook County President’s Property Tax Reform Group."
+  },
+  {
+    "objectID": "projects/property-tax/index.html#my-contribution",
+    "href": "projects/property-tax/index.html#my-contribution",
+    "title": "Cook County Property Tax Reform",
+    "section": "My contribution",
+    "text": "My contribution\nI developed the data and reproducibility infrastructure supporting the team’s analysis. I identified relevant PTAXSIM tables and county administrative records, then built R workflows to clean, join, reshape, aggregate, and summarize property-level information.\nThose workflows construct variables for examining tax bases, bills, exemptions, and incentive classifications. I also created the public replication website and codebase, connecting published findings to the analyses, tables, and figures behind them.\n\n\n\nComparison of residential properties’ current share of the levy and their share under a scenario without exemptions, across selected Cook County municipalities.\n\n\nAn example from the property-tax work: the residential share of the levy under current conditions and a scenario without exemptions. The chart groups municipalities with different land-use compositions to help explain why the distributional implications vary."
+  },
+  {
+    "objectID": "projects/property-tax/index.html#from-one-report-to-repeatable-analysis",
+    "href": "projects/property-tax/index.html#from-one-report-to-repeatable-analysis",
+    "title": "Cook County Property Tax Reform",
+    "section": "From one report to repeatable analysis",
+    "text": "From one report to repeatable analysis\nI developed parameterized reporting workflows to update key results by geography and fiscal year as new administrative data became available. My continuing technical work includes corrections, documentation, data updates, and site maintenance.\nOne useful component automates the calculation of tax rates, levies, and taxable equalized assessed value across geographies from PTAXSIM tables. See the calculation workflow."
+  },
+  {
+    "objectID": "projects/property-tax/index.html#a-decision-that-matters",
+    "href": "projects/property-tax/index.html#a-decision-that-matters",
+    "title": "Cook County Property Tax Reform",
+    "section": "A decision that matters",
+    "text": "A decision that matters\nAn exemption’s effect depends on the surrounding tax system and tax base. Showing both the scenario and the geography makes the result more interpretable than a single countywide total. Reproducible reporting also makes it possible to revisit the analysis as the underlying records change."
+  },
+  {
+    "objectID": "projects/property-tax/index.html#related-reports",
+    "href": "projects/property-tax/index.html#related-reports",
+    "title": "Cook County Property Tax Reform",
+    "section": "Related reports",
+    "text": "Related reports\nThe work includes reports on homestead exemptions, extended benefits and costs, and commercial and industrial incentives. Find the full citations on Research & Publications.\nBrowse all projects →"
+  },
+  {
+    "objectID": "projects/illinois-budget/index.html",
+    "href": "projects/illinois-budget/index.html",
+    "title": "Illinois State Budget Research Dataset",
     "section": "",
-    "text": "Things I would hang on my fridge:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI made a really cool loop that calculates tax rates, levies, taxable EAV, etc. for various geographies using data tables from the PTAXSIM package. It’s not a pretty picture, but it is one of the most efficient code items I’ve ever made and I’m still impressed that I did it. Click this link to be underwhelmed by code that does impressive things!\nI also did a radio interview on the Working From Home paper: - Radio Interview Schlenker, Charlie. (2024, February 16). McLean County has high potential for work-from-home permanence. [Radio broadcast]. WGLT NPR. Listen and Read Here!."
+    "text": "← All projects"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "projects/illinois-budget/index.html#bringing-the-records-together",
+    "href": "projects/illinois-budget/index.html#bringing-the-records-together",
+    "title": "Illinois State Budget Research Dataset",
+    "section": "Bringing the records together",
+    "text": "Bringing the records together\nIllinois publishes fiscal information across annual reports, budget books, spreadsheets, and searchable portals. The Comptroller’s appropriation tool supports fiscal-year and agency-level queries; GOMB’s budget books and data files are organized by budget year. These resources serve different purposes, and using them for longitudinal research still requires assembling and reconciling records across years.\nI built this project to put that work in one place: consolidated revenue and expenditure datasets spanning FY1998–2026, with expenditures at the agency–object–appropriation level and revenues at the revenue-source level, retaining fund and agency identifiers. Researchers can work across years without starting over with individual annual files or rebuilding the same labels and classifications."
+  },
+  {
+    "objectID": "projects/illinois-budget/index.html#more-detail-for-independent-research",
+    "href": "projects/illinois-budget/index.html#more-detail-for-independent-research",
+    "title": "Illinois State Budget Research Dataset",
+    "section": "More detail for independent research",
+    "text": "More detail for independent research\nThe dataset extends the detail available in Fiscal Futures totals and summary tables. It retains observations beyond those selected for that reporting program and brings together fund types, appropriation labels, object labels, and analytical categories across years.\nI developed classifications to make comparisons with GOMB and COGFA reporting easier, and added an item_detail field describing pension, healthcare, and other items that may be useful for a particular research question. Those categories are research tools: they help users select, compare, and aggregate records while preserving the detail needed to investigate individual items.\n\n\n\nWorkflow from annual Comptroller files through identifier reconciliation and classification to separate revenue and expenditure research datasets."
+  },
+  {
+    "objectID": "projects/illinois-budget/index.html#what-is-in-the-datasets",
+    "href": "projects/illinois-budget/index.html#what-is-in-the-datasets",
+    "title": "Illinois State Budget Research Dataset",
+    "section": "What is in the datasets?",
+    "text": "What is in the datasets?\nThese are selected fields in the September 16, 2026 exports. The repository contains the data and construction notes.\n\n\n\n\n\n\n\n\n\nDetail\nExpenditure fields\nRevenue fields\n\n\n\n\nFiscal year\nfy\nfy\n\n\nFund identifiers and labels\nfund, fund_re, fund_name_ab\nfund, fund_re, fund_name_ab\n\n\nFund type\nfund_category, fund_cat_name\nfund_category, fund_cat_name\n\n\nAgency\nagency, agency_name\nagency\n\n\nAppropriation organization and labels\nappr_org, org_name, wh_approp_name, approp_number\n—\n\n\nObject and appropriation components\nobject, obj_of_exp, obj_seq_type, sequence, type\n—\n\n\nRevenue source and labels\n—\nsource, source_name, source_name_AWM\n\n\nAnalytical classifications\ngroup, group_name, item_detail, pension\nrev_type, rev_type_name, rev_type_name_COMPTROLLER\n\n\nAmount\nexpenditure\nreceipts\n\n\n\n\nThe exact labels and classifications are documented alongside the code. For example, wh_approp_name supplies appropriation wording, while group_name and item_detail provide additional analytical groupings and descriptions."
+  },
+  {
+    "objectID": "projects/illinois-budget/index.html#an-example-spending-by-fund-type",
+    "href": "projects/illinois-budget/index.html#an-example-spending-by-fund-type",
+    "title": "Illinois State Budget Research Dataset",
+    "section": "An example: spending by fund type",
+    "text": "An example: spending by fund type\n\n\n\nHorizontal bar chart of FY2025 expenditure totals by fund type, calculated from the September 16, 2026 research dataset export.\n\n\nThis example groups FY2025 expenditure records by fund_cat_name. It illustrates the detail available for independent analysis rather than an annual Fiscal Futures summary table. Amounts are nominal dollars; fund labels differing only in capitalization are combined.\nDownload the chart data (CSV).\n\n\n\n\n\n\nTipOther questions the data can support\n\n\n\n\nWhich expenditure objects or appropriation lines account for the largest amounts?\nHow has spending from different fund types changed over time?\nHow do analytical groups compare with GOMB or COGFA categories?\nWhich pension or healthcare items are identifiable through item_detail?\n\n\n\n\nReproduce a grouping in R\nlibrary(dplyr)\nlibrary(readr)\n\nexpenditures &lt;- read_csv(\"budget_data_exp_2026-09-16.csv\")\n\n# Annual spending by the dataset's analytical group.\nby_group &lt;- expenditures |&gt;\n  group_by(fy, group_name) |&gt;\n  summarise(expenditure = sum(expenditure, na.rm = TRUE), .groups = \"drop\")\n\n# Use fund_cat_name instead of group_name for a fund-type comparison,\n# or inspect item_detail to focus on a particular pension/healthcare item."
+  },
+  {
+    "objectID": "projects/illinois-budget/index.html#research-outputs",
+    "href": "projects/illinois-budget/index.html#research-outputs",
+    "title": "Illinois State Budget Research Dataset",
+    "section": "Research outputs",
+    "text": "Research outputs\nThe repository provides the expenditure and revenue datasets, data-construction code, classifications, and annual-update guidance. The companion Fiscal Futures project explains the methodology used for that reporting program.\nBrowse all projects →"
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html",
+    "href": "projects/fiscalfutures/index.html",
+    "title": "Fiscal Futures",
     "section": "",
-    "text": "I spend too much time playing with data and not enough time writing my dissertation! Yay! This is my attempt at making a personal website. I will hopefully make it more “professional” soon.\n\n\nUniversity of Illinois Chicago | Chicago, IL\nPhD Student in Public Administration | 2019 - Current\nUniversity of Illinois Chicago | Chicago, IL\nMaster of Public Administration | Sept 2017 - May 2019\n\nConcentration in Public Management\nConcentration in Financial Management\nCertificate in Emergency Management and Continuity Planning\nCertificate in Environmental Studies\n\nUniversity of Wisconsin - Madison | Madison, WI\nB.S. Economics with Math Emphasis | Sept 2012 - May 2016\n\nCertificate in Environmental Studies"
+    "text": "← All projects"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "About",
+    "objectID": "projects/fiscalfutures/index.html#the-question",
+    "href": "projects/fiscalfutures/index.html#the-question",
+    "title": "Fiscal Futures",
+    "section": "The question",
+    "text": "The question\nHow do Illinois’ revenues and expenditures change over time, and what do those trends imply for the state’s fiscal condition? Fiscal Futures combines recurring policy research with the less visible work of making annual fiscal records comparable."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#my-contribution",
+    "href": "projects/fiscalfutures/index.html#my-contribution",
+    "title": "Fiscal Futures",
+    "section": "My contribution",
+    "text": "My contribution\nI coauthored Fiscal Futures research and created the public data, code, and methodology infrastructure supporting the annual analysis. I rebuilt inherited workflows in R, reviewed historical coding decisions, corrected identified inconsistencies, and documented procedures for future updates.\nThe data work includes tracking changes in agencies, funds, revenue sources, and classification systems. Reused fund numbers and reorganizations require more than stacking annual files: the meaning of a record must be considered alongside its identifier."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#a-public-methodology-resource",
+    "href": "projects/fiscalfutures/index.html#a-public-methodology-resource",
+    "title": "Fiscal Futures",
+    "section": "A public methodology resource",
+    "text": "A public methodology resource\n\n\n\nThe Fiscal Futures methodology website, showing documented topics including revenue, transfers, Medicaid, debt, pensions, healthcare, refunds, education, and data cleaning.\n\n\nThe methodology site documents the subjects behind the annual totals: own-source and federal revenue, local transfers, Medicaid, debt, pensions, healthcare, refunds, education, COVID funding, and the decisions involved in gathering and cleaning the data. The screenshot shows the breadth of that documentation; the live site provides the detailed chapters and code."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#making-annual-research-maintainable",
+    "href": "projects/fiscalfutures/index.html#making-annual-research-maintainable",
+    "title": "Fiscal Futures",
+    "section": "Making annual research maintainable",
+    "text": "Making annual research maintainable\nI developed a public Quarto website with downloadable data, code, methodology, and guidance for future annual updates. The goal is to let a future researcher understand how totals were constructed and where a change in source data requires a decision."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#a-decision-that-matters",
+    "href": "projects/fiscalfutures/index.html#a-decision-that-matters",
+    "title": "Fiscal Futures",
+    "section": "A decision that matters",
+    "text": "A decision that matters\nA fiscal measure depends on its inclusion rules. Transfers and other accounting flows need to be handled deliberately to interpret revenues and expenditures. Documenting those rules makes the difference between reproducing a chart and understanding what it measures."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#selected-report-visualizations",
+    "href": "projects/fiscalfutures/index.html#selected-report-visualizations",
+    "title": "Fiscal Futures",
+    "section": "Selected report visualizations",
+    "text": "Selected report visualizations\nSome research questions call for a figure built specifically for one report. These visualizations are another part of my contribution, alongside the recurring data and methodology work.\n\n\n\nSankey diagrams tracing federal COVID funding received by Illinois and the allocation of State CURE funding across years and uses.\n\n\nThese Sankey diagrams trace how COVID-era federal funding moved from its sources through receipt years and spending or allocation categories, including flows involving different agencies and programs. Following those connections helps explain where the money went in a way that a single annual total cannot. The figures describe the historical report analysis, rather than the current state budget.\nRead Recovering from COVID (Spending) Fever."
+  },
+  {
+    "objectID": "projects/fiscalfutures/index.html#related-work",
+    "href": "projects/fiscalfutures/index.html#related-work",
+    "title": "Fiscal Futures",
+    "section": "Related work",
+    "text": "Related work\nSee Research & Publications for reports on fiscal conditions, revenue growth, and state expenditures. My separate Illinois State Budget Research Dataset retains additional records for broader research questions.\nBrowse all projects →"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "University of Illinois Chicago | Chicago, IL\nPhD Student in Public Administration | 2019 - Current\nUniversity of Illinois Chicago | Chicago, IL\nMaster of Public Administration | Sept 2017 - May 2019\n\nConcentration in Public Management\nConcentration in Financial Management\nCertificate in Emergency Management and Continuity Planning\nCertificate in Environmental Studies\n\nUniversity of Wisconsin - Madison | Madison, WI\nB.S. Economics with Math Emphasis | Sept 2012 - May 2016\n\nCertificate in Environmental Studies"
+    "text": "These projects show both the research and the work behind it: reconciling messy records, choosing a useful unit of analysis, and making results easier to explore. Open a project for my role, selected outputs, and links to the full materials."
   },
   {
-    "objectID": "index.html#current-research",
-    "href": "index.html#current-research",
-    "title": "About",
-    "section": "Current Research",
-    "text": "Current Research\nUIC’s Government Finance Research Center - Cook County Property Tax Reform Project\nI am currently working with CMAP and the Cook County people looking at property taxes using data from the Cook County Assessor’s Office. I’ve been insisting on making all data, findings, code, and bonus content publicly available on GitHub. A website with key findings and tables can be found here!. This research has resulted in three reports released by Cook County and influenced State legislation.\nFiscal Futures Project\nMy little legacy is this GitHub Site and Repository! I joined Fiscal Futures Project in 2021 and transformed the inherited Stata code into R code, while finding errors in past methodology and updating the methodology for the project. Was I asked to do this? No, but I have no chill. What began as personal documentation to track coding logic and my deep dives into the data slowly warped into an RPubs site and then became a full-blown GitHub website."
-  },
-  {
-    "objectID": "index.html#recent-publications",
-    "href": "index.html#recent-publications",
-    "title": "About",
-    "section": "Recent Publications:",
-    "text": "Recent Publications:\nWilbur-Mujtaba, A., Merriman, D., Hu, X., Lee, J., Worthington, Paula. Forthcoming Current Condition and Future Concerns for Growth in Illinois’ State\nDrucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2025). The Current and Future Use of Incentives in Cook County. https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf?utm_medium=email&utm_source=govdelivery\nMerriman, D., Funderburg, R. Hu,H., Lee, J., Wilbur-Mujtaba, A., Worthington, Paula. (2025) The State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain. https://doi.org/10.25417/uic.29873588\nDrucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2024). Extended Analysis of Selected Benefits and Costs. Governemnt Finance Research Center. https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view?usp=sharing\nDrucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2023). Current and Future Use of Homestead Exemptions. https://drive.google.com/file/d/1nqprvzF24RnnIrqCbweiH-f3U8EnCIfX/view?usp=sharing\nFinding the Balance: State Fiscal Sustainability and Local Government Challenges, by Alea Wilbur-Mujtaba, Francis Choi, Rick Funderburg, Xiaoyan Hu, Paula R. Worthington, Yonghong Wu, Chen Xie, & David Merriman. May 2024. Institute of Government and Public Affairs. https://igpa.uillinois.edu/reports/finding-the-balance-state-fiscal-sustainability-and-local-government-fiscal-challenges.\nWorking from Home in Illinois: Who Can and Who Does? by Alea Wilbur-Mujtaba, Francis Choi, Xiaoyan Hu, and David Merriman. February 2024. Institute of Government and Public Affairs. https://igpa.uillinois.edu/reports/working-from-home-in-illinois-who-can-and-does.\n\nWebsite containing replication code, additional images, and appendix items can be found on this GitHub site.\n\nRead the FY22 Fiscal Futures Annual Report: Recovering From a (COVID) Spending Fever\n\nRecovering from a COVID (Spending) Fever by Alea Wilbur-Mujtaba, Francis Choi, and David Merriman. (2023). Institute of Government and Public Affairs. https://igpa.uillinois.edu/wp-content/uploads/2023/03/IGPA_FiscalFuturesCOVID_FeverD.pdf.\nCheck out the website and download the data here: The Fiscal Futures Project"
+    "objectID": "projects/index.html#also-on-the-fridge",
+    "href": "projects/index.html#also-on-the-fridge",
+    "title": "Projects",
+    "section": "Also on the fridge",
+    "text": "Also on the fridge\n\n\nWorking from home in Illinois\nResearch on who can work remotely and who does, with replication materials and a public-radio interview about the findings.\nRead the report · Explore the analysis · WGLT interview\n\n\nEmergency management & public communication\nDuring my 2020 internship with Chicago’s Office of Emergency Management and Communications, I analyzed operational data for situation reports and created visualizations supporting the city’s COVID-19 response.\n\n\n\nChicago COVID-19 testing locations, with circle sizes indicating the number of tests as of July 30, 2020.\n\n\n\n\nTeaching programming for public policy\nI designed and taught Programming and Data Analysis for Public Policy at UIC in Fall 2021, developing policy-focused datasets, lessons, and exercises in R. More about my teaching and experience."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Papers",
+    "title": "Research & Publications",
     "section": "",
-    "text": "2025\n\n\nGFRC & CMAP team. (2025). “Current and Future Use of Incentives in Cook County.” Government Finance Research Center.    Github    Read Paper \n\n\nAlea Wilbur-Mujtaba, David Merriman, Jahun Lee, Xiaoyan Hu, and Paula R. Worthington. (2025). “State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain.” Institute of Government and Public Affairs.    Github    Read Paper \n\n\n2024\n\n\nAlea Wilbur-Mujtaba, Francis Choi, Rick Funderburg, Xiaoyan Hu, Paula R. Worthington, Yonghong Wu, Chen Xie, and David Merriman. (2024). “Finding the Balance: State Fiscal Sustainability and Local Government Challenges.” Institute of Government and Public Affairs.    Github    Read Paper \n\n\nAlea Wilbur-Mujtaba, Francis Choi, Xiaoyan Hu, and David Merriman. (2024). “Working from Home in Illinois: Who Can and Who Does?.” Institute of Government and Public Affairs.    Github    Read Paper \n\n\nGFRC & CMAP team. (2024). “Extended Analysis of Selected Benefits and Costs.” Government Finance Research Center.    Github    Read Paper \n\n\nGFRC & CMAP team. (2024). “Current and Future Use of Homestead Exemptions.” Government Finance Research Center.    Github    Read Paper \n\n\n2023\n\n\nFrancis Choi and Alea Wilbur-Mujtaba. (2023). “What Happened to Illinois’ Open Data Movement.” Institute of Government and Public Affairs.    Read Paper \n\n\nAlea Wilbur-Mujtaba, Francis Choi, and David Merriman. (2023). “Recovering from COVID (Spending) Fever.” Institute of Government and Public Affairs.    Github    Read Paper \n\n\nFrancis Choi and Alea Wilbur-Mujtaba. (2023). “Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds.” Institute of Government and Public Affairs.    Read Paper \n\n\n2022\n\n\nDavid Merriman, Xiaoyan Hu, and Alea Wilbur-Mujtaba. (2022). “Why does Illinois’ Unemployment Insurance Trust Fund have a large deficit?.” Institute of Government and Public Affairs.    Read Paper \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n[object Object]\n\n\n\n\n\n\nNo matching items"
+    "text": "My research spans public finance, property taxation, flood risk, and government data. Reports and manuscripts are grouped by type below; project pages describe my contributions and link to replication materials."
+  },
+  {
+    "objectID": "research.html#policy-reports",
+    "href": "research.html#policy-reports",
+    "title": "Research & Publications",
+    "section": "Policy reports & research papers",
+    "text": "Policy reports & research papers\nIllinois’ State Expenditures: Current Condition and Future ConcernsMerriman, D., Wilbur-Mujtaba, A., & Lee, J. (2026)Institute of Government and Public AffairsExamines Illinois state spending and concerns for future fiscal conditions.Read paper: Illinois’ State Expenditures: Current Condition and Future Concerns →\nCurrent Condition and Future Concerns for Growth in Illinois’ State RevenueWilbur-Mujtaba, A., Merriman, D., Hu, X., Lee, J., & Worthington, P. (2025)Institute of Government and Public AffairsExamines the condition and growth prospects of Illinois state revenue.Read paper: Current Condition and Future Concerns for Growth in Illinois’ State Revenue →\nThe Current and Future Use of Incentives in Cook CountyDrucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2025)Cook County Property Tax Reform GroupResearch on commercial and industrial property-tax incentives.Read paper: The Current and Future Use of Incentives in Cook County →Project overview: The Current and Future Use of Incentives in Cook County →\nThe State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats RemainMerriman, D., Funderburg, R., Hu, X., Lee, J., Wilbur-Mujtaba, A., & Worthington, P. (2025)Institute of Government and Public AffairsAn assessment of Illinois fiscal performance and continuing risks.Read paper: The State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain →\nFinding the Balance: State Fiscal Sustainability and Local Government ChallengesWilbur-Mujtaba, A., Choi, F., Funderburg, R., Hu, X., Worthington, P. R., Wu, Y., Xie, C., & Merriman, D. (2024)Institute of Government and Public AffairsRead paper: Finding the Balance: State Fiscal Sustainability and Local Government Challenges →\nExtended Analysis of Selected Benefits and CostsDrucker, J., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2024)Government Finance Research CenterRead paper: Extended Analysis of Selected Benefits and Costs →Project overview: Extended Analysis of Selected Benefits and Costs →\nWorking from Home in Illinois: Who Can and Does?Wilbur-Mujtaba, A., Choi, F., Hu, X., & Merriman, D. (2024)Institute of Government and Public AffairsResearch on the capacity for remote work and observed work-from-home patterns.Read paper: Working from Home in Illinois: Who Can and Does? →Research materials: Working from Home in Illinois: Who Can and Does? →\nCurrent and Future Use of Homestead ExemptionsDrucker, J., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A. (2023)Government Finance Research CenterRead paper: Current and Future Use of Homestead Exemptions →Project overview: Current and Future Use of Homestead Exemptions →\nWhat Happened to Illinois’ Open Data MovementChoi, F., & Wilbur-Mujtaba, A. (2023)Institute of Government and Public AffairsRead paper: What Happened to Illinois’ Open Data Movement →\nRecovering from COVID (Spending) FeverWilbur-Mujtaba, A., Choi, F., & Merriman, D. (2023)Institute of Government and Public AffairsRead paper: Recovering from COVID (Spending) Fever →Project overview: Recovering from COVID (Spending) Fever →\nFiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal FundsChoi, F., & Wilbur-Mujtaba, A. (2023)Institute of Government and Public AffairsRead paper: Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds →\nWhy Does Illinois’ Unemployment Insurance Trust Fund Have a Large Deficit?Merriman, D., Hu, X., & Wilbur-Mujtaba, A. (2022)Institute of Government and Public AffairsRead paper: Why Does Illinois’ Unemployment Insurance Trust Fund Have a Large Deficit? →"
+  },
+  {
+    "objectID": "research.html#submitted-manuscripts",
+    "href": "research.html#submitted-manuscripts",
+    "title": "Research & Publications",
+    "section": "Submitted manuscripts",
+    "text": "Submitted manuscripts\nThe Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives?Drucker, J., Weber, R., Van Hulle, M., & Wilbur-Mujtaba, A. (2026)Urban Affairs ReviewRevised and resubmitted; under reviewProject overview: The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives? →"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research & Publications",
+    "section": "Working papers",
+    "text": "Working papers\nMeasuring Local Government Levies’ Responsiveness to the Property Tax BaseMerriman, D., & Wilbur-Mujtaba, A. (2026)Working researchResearch materials: Measuring Local Government Levies’ Responsiveness to the Property Tax Base →Project overview: Measuring Local Government Levies’ Responsiveness to the Property Tax Base →"
+  },
+  {
+    "objectID": "research.html#dissertation",
+    "href": "research.html#dissertation",
+    "title": "Research & Publications",
+    "section": "Dissertation",
+    "text": "Dissertation\nRisk Perception and Real Estate Values in Cook County, IllinoisWilbur-Mujtaba, A. (2026)Doctoral dissertation, University of Illinois ChicagoResearch materials: Risk Perception and Real Estate Values in Cook County, Illinois →Project overview: Risk Perception and Real Estate Values in Cook County, Illinois →"
+  },
+  {
+    "objectID": "research.html#presentations",
+    "href": "research.html#presentations",
+    "title": "Research & Publications",
+    "section": "Presentations",
+    "text": "Presentations\n\nUpcoming\n\nNovember 2026 · National Tax Association, Philadelphia. Risk Perception and Real Estate Values in Cook County, Illinois. Alea Wilbur-Mujtaba. Scheduled presentation.\nNovember 2026 · National Tax Association, Philadelphia. Measuring Local Government Levies’ Responsiveness to the Property Tax Base. David Merriman and Alea Wilbur-Mujtaba. Scheduled presentation.\nSeptember 25, 2026 · Association for Budgeting & Financial Management, Washington, DC. Measuring Local Government Levies’ Responsiveness to the Property Tax Base. David Merriman and Alea Wilbur-Mujtaba. Scheduled presentation.\n\n\n\nCompleted\n\nJune 10–12, 2026 · Mid-Continent Regional Science Association, Chicago. Measuring Local Government Levies’ Responsiveness to the Property Tax Base. David Merriman, Alea Wilbur-Mujtaba, and Michael Van Hulle.\nNovember 2025 · North American Regional Science Council, Denver. The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives? Joshua Drucker, Rachel Weber, Michael Van Hulle, and Alea Wilbur-Mujtaba.\nNovember 2024 · National Tax Association, Detroit. Measuring Local Government Levies’ Responsiveness to the Property Tax Base. Michael P. Van Hulle, Alea Wilbur-Mujtaba, and David Merriman.\nOctober 2024 · Association for Budgeting & Financial Management, Cleveland. The Distributional Politics of Fragmented Incentives: When Economic Development Turns Fiscal. Michael P. Van Hulle, Alea Wilbur-Mujtaba, and David Merriman."
+  },
+  {
+    "objectID": "research.html#data-replication-materials",
+    "href": "research.html#data-replication-materials",
+    "title": "Research & Publications",
+    "section": "Data & replication materials",
+    "text": "Data & replication materials\nResearch outputs also include datasets, documentation, and maintained replication websites. Explore the project pages for these resources and archived releases.\nPublication and presentation statuses updated September 2026."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Making complex data useful for public decisions.",
+    "section": "",
+    "text": "PUBLIC POLICY · DATA · RESEARCH\n\n\nI’m Alea Wilbur-Mujtaba, a public-policy researcher working on public finance, property taxation, and flood risk. I build reproducible datasets and analytical tools that turn government and spatial records into research people can use.\n\nExplore my projects Research & publications\n\nPhD, Public Administration · University of Illinois Chicago\n\n\n\n\nResearcher. Data builder. Curious by default.\nView all projects →"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Making complex data useful for public decisions.",
+    "section": "Selected work",
+    "text": "Selected work\nFrom individual properties to state budgets: a few ways I connect data, methods, and policy questions."
+  },
+  {
+    "objectID": "index.html#a-closer-look",
+    "href": "index.html#a-closer-look",
+    "title": "Making complex data useful for public decisions.",
+    "section": "A closer look",
+    "text": "A closer look\nMy work spans collaborative policy research, independent data products, and teaching. Read about my background."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About & CV",
+    "section": "",
+    "text": "I’m Alea Wilbur-Mujtaba, a researcher based in Chicago. I earned my PhD in Public Administration from the University of Illinois Chicago in August 2026. My work brings together public finance, administrative and spatial data, reproducible research, and policy analysis.\nI enjoy the parts of research that connect a question to usable evidence: understanding how a government dataset was assembled, reconciling records that do not quite agree, and building tools that make the next analysis easier to reproduce."
+  },
+  {
+    "objectID": "about.html#academic-cv",
+    "href": "about.html#academic-cv",
+    "title": "About & CV",
+    "section": "Academic CV",
+    "text": "Academic CV\nMy academic CV includes research, publications, teaching, and awards. September 2026 edition.\n\nDownload academic CV (PDF)"
+  },
+  {
+    "objectID": "about.html#research-experience",
+    "href": "about.html#research-experience",
+    "title": "About & CV",
+    "section": "Research experience",
+    "text": "Research experience\nGovernment Finance Research Center, University of Illinois Chicago\nResearch Assistant · January 2023–December 2025\nApplied property-tax research on residential exemptions and commercial and industrial incentives. My contributions include analytical data pipelines, maps and figures, public replication materials, and automated reporting. I continue technical maintenance of the related research resources.\nInstitute of Government and Public Affairs, University of Illinois System\nResearch Assistant · January 2022–June 2026\nCoauthored Fiscal Futures research and developed reproducible workflows to harmonize Illinois fiscal data across years, validate records, and support recurring analysis and publication.\nDoctoral research, University of Illinois Chicago\n2019–2026\nMy dissertation, Risk Perception and Real Estate Values in Cook County, Illinois, studies housing-market responses to flood-risk information. Explore the project."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About & CV",
+    "section": "Education",
+    "text": "Education\nPhD in Public Administration, University of Illinois Chicago · August 2026\nMaster of Public Administration, University of Illinois Chicago · May 2019\nConcentrations in Public Management and Financial Management; certificates in Emergency Management and Continuity Planning, and Geospatial Analysis and Visualization.\nBS in Economics with Mathematical Emphasis, University of Wisconsin–Madison · May 2016\nCertificate in Environmental Studies."
+  },
+  {
+    "objectID": "about.html#teaching-public-service",
+    "href": "about.html#teaching-public-service",
+    "title": "About & CV",
+    "section": "Teaching & public service",
+    "text": "Teaching & public service\nI designed and taught Programming and Data Analysis for Public Policy at UIC in Fall 2021, creating lessons and exercises in programming, data management, analysis, and visualization. I also supported courses in data analytics, policy analysis, and public administration.\nMy applied government experience includes Chicago’s Office of Emergency Management and Communications during the 2020 COVID-19 response and community engagement for the Village of Skokie’s five-year Community Development Block Grant Consolidated Plan in 2019. My master’s capstone examined congestion on the Chicago River."
+  },
+  {
+    "objectID": "about.html#methods-tools",
+    "href": "about.html#methods-tools",
+    "title": "About & CV",
+    "section": "Methods & tools",
+    "text": "Methods & tools\n\nData and reproducibility: R, tidyverse, sf, targets, Quarto, Git/GitHub, documentation, validation, and automated reporting.\nAnalysis: panel data, fixed effects, difference-in-differences, event studies, instrumental variables, survey analysis, and geospatial analysis.\nAdditional tools: ArcGIS Pro, SQL, Tableau, Stata, SPSS, Qualtrics, and Excel."
+  },
+  {
+    "objectID": "about.html#selected-recognition",
+    "href": "about.html#selected-recognition",
+    "title": "About & CV",
+    "section": "Selected recognition",
+    "text": "Selected recognition\n\nClimate Tax Fellowship, National Tax Association · 2026 Fall Conference.\nCiccarone Public Finance Scholarship, UIC · 2022–2023.\nICPSR Summer Program Scholarship · 2022.\nCertificate of Merit, United States Coast Guard, Marine Safety Unit Chicago · 2019."
+  },
+  {
+    "objectID": "about.html#get-in-touch",
+    "href": "about.html#get-in-touch",
+    "title": "About & CV",
+    "section": "Get in touch",
+    "text": "Get in touch\nEmail me · LinkedIn · GitHub"
+  },
+  {
+    "objectID": "fridge.html",
+    "href": "fridge.html",
+    "title": "Things on My Fridge",
+    "section": "",
+    "text": "The collection has grown into a portfolio of research, data, and things I’ve built. You’ll find the figures, maps, and project stories together on the Projects page.\nExplore the projects →"
+  },
+  {
+    "objectID": "fridge.html#the-fridge-has-a-new-home",
+    "href": "fridge.html#the-fridge-has-a-new-home",
+    "title": "Things on My Fridge",
+    "section": "",
+    "text": "The collection has grown into a portfolio of research, data, and things I’ve built. You’ll find the figures, maps, and project stories together on the Projects page.\nExplore the projects →"
+  },
+  {
+    "objectID": "projects/commercial-industrial/index.html",
+    "href": "projects/commercial-industrial/index.html",
+    "title": "From Parcels to Development Projects",
+    "section": "",
+    "text": "← All projects"
+  },
+  {
+    "objectID": "projects/commercial-industrial/index.html#the-problem",
+    "href": "projects/commercial-industrial/index.html#the-problem",
+    "title": "From Parcels to Development Projects",
+    "section": "The problem",
+    "text": "The problem\nA Property Index Number (PIN) identifies a parcel, but a commercial or industrial development can span several parcels. Treating every PIN as an independent project can obscure the development being studied."
+  },
+  {
+    "objectID": "projects/commercial-industrial/index.html#what-i-built",
+    "href": "projects/commercial-industrial/index.html#what-i-built",
+    "title": "From Parcels to Development Projects",
+    "section": "What I built",
+    "text": "What I built\nI created a project-level research database by extracting historical commercial and industrial PINs from PTAXSIM and linking related parcels. Evidence comes from ownership, parcel proximity, buyer and seller names, sale document numbers, appeal records, valuation worksheets, and transaction records, with manual review where the records are ambiguous.\nI built R and Quarto workflows that turn these decisions into detailed project documentation. Parameterized reports organize the material by township and municipality, and the public website supports geographic browsing and searches for individual PINs and projects.\n\n\n\nElk Grove township parcels colored by the manually coded project identifier, grouping related PINs into developments.\n\n\nElk Grove township parcels grouped by manually coded project identifiers (keypins). Colors distinguish the groups assembled using appeal IDs, sale documents, proximity, and other evidence. The colors identify groups; they do not encode a numerical measure."
+  },
+  {
+    "objectID": "projects/commercial-industrial/index.html#a-decision-that-matters",
+    "href": "projects/commercial-industrial/index.html#a-decision-that-matters",
+    "title": "From Parcels to Development Projects",
+    "section": "A decision that matters",
+    "text": "A decision that matters\nThe unit of analysis has to match the research question. Proximity alone does not establish that two parcels are one project. Combining independent pieces of evidence—and retaining documentation of ambiguous cases—makes the grouping decisions easier to review and revise."
+  },
+  {
+    "objectID": "projects/commercial-industrial/index.html#what-the-public-site-adds",
+    "href": "projects/commercial-industrial/index.html#what-the-public-site-adds",
+    "title": "From Parcels to Development Projects",
+    "section": "What the public site adds",
+    "text": "What the public site adds\nThe website lets a reader move from a geographic area to specific projects and the records supporting them. The documentation is part of the research product: it explains how parcel-level administrative records became development-level data.\nThis project grew out of the same property-tax research environment as the Cook County reform work, but addresses a distinct data-construction problem.\nBrowse all projects →"
+  },
+  {
+    "objectID": "projects/flood-risk/index.html",
+    "href": "projects/flood-risk/index.html",
+    "title": "Flood Risk & Housing Markets",
+    "section": "",
+    "text": "← All projects"
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#the-question",
+    "href": "projects/flood-risk/index.html#the-question",
+    "title": "Flood Risk & Housing Markets",
+    "section": "The question",
+    "text": "The question\nHow do housing markets respond to new information about flood risk? My dissertation, Risk Perception and Real Estate Values in Cook County, Illinois (2026), examines FEMA floodplain-map updates and the public availability of First Street Foundation Flood Factor scores."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#what-i-built",
+    "href": "projects/flood-risk/index.html#what-i-built",
+    "title": "Flood Risk & Housing Markets",
+    "section": "What I built",
+    "text": "What I built\nI developed a longitudinal research database connecting 2006–2025 residential sales with parcel and building geometries, multiple vintages of FEMA flood maps, FIRM panel information, and property-level flood-risk measures. The work required matching information across both space and time: a property’s classification can change with a new map, and a parcel and its building do not necessarily have the same floodplain exposure.\nI built reproducible spatial workflows in R using sf and targets, with parallel validation approaches in ArcGIS Pro. The pipeline tracks dependencies between source files and derived outputs, while Quarto documents bring together diagnostics, maps, and methodological notes."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#before-the-models-a-spatial-data-pipeline",
+    "href": "projects/flood-risk/index.html#before-the-models-a-spatial-data-pipeline",
+    "title": "Flood Risk & Housing Markets",
+    "section": "Before the models: a spatial-data pipeline",
+    "text": "Before the models: a spatial-data pipeline\n\n\n\nThe targets dependency graph linking spatial source files, geographic classifications, sales records, and analysis-ready datasets.\n\n\nThe targets graph makes the work before modeling visible. Source files feed coordinate-system alignment, parcel and building intersections, geographic classifications, and joins to sales records. Those steps produce alternative analysis datasets rather than a single unexplained final file. Tracking the dependencies also helps identify which outputs need updating when an input changes.\nOpen the pipeline image at full size."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#seeing-differences-in-flood-risk",
+    "href": "projects/flood-risk/index.html#seeing-differences-in-flood-risk",
+    "title": "Flood Risk & Housing Markets",
+    "section": "Seeing differences in flood risk",
+    "text": "Seeing differences in flood risk\n\n\n\nSelected properties near Berwyn and Cicero colored by Flood Factor scores from 5 through 10.\n\n\nThis map colors selected properties by their Flood Factor score, rather than by property class. It shows scores of 5–10 in the displayed area and makes the variation within the selected properties visible. It is a different view of risk from the FEMA floodplain classifications used elsewhere in the dissertation."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#analytical-approach",
+    "href": "projects/flood-risk/index.html#analytical-approach",
+    "title": "Flood Risk & Housing Markets",
+    "section": "Analytical approach",
+    "text": "Analytical approach\nThe research uses property and year fixed effects, difference-in-differences, event studies, and heterogeneous-effects analyses. Supporting materials document assumption checks, alternative exposure definitions, and robustness analyses so readers can inspect the choices behind the estimates."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#a-decision-that-matters",
+    "href": "projects/flood-risk/index.html#a-decision-that-matters",
+    "title": "Flood Risk & Housing Markets",
+    "section": "A decision that matters",
+    "text": "A decision that matters\nDefining exposure is part of the research design. Whether a flood zone intersects a parcel or the building on that parcel can change which properties enter an analysis. Making those definitions explicit connects the spatial processing to the question the model actually answers."
+  },
+  {
+    "objectID": "projects/flood-risk/index.html#research-outputs",
+    "href": "projects/flood-risk/index.html#research-outputs",
+    "title": "Flood Risk & Housing Markets",
+    "section": "Research outputs",
+    "text": "Research outputs\nThe public supplemental site brings together tables, figures, code notes, data-construction decisions, and analyses that could not fit in the final dissertation. It provides a route from the written research to the underlying evidence.\nBrowse all projects →"
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html",
+    "href": "projects/levy-responsiveness/index.html",
+    "title": "Local Government Levy Responsiveness",
+    "section": "",
+    "text": "← All projects"
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html#the-question",
+    "href": "projects/levy-responsiveness/index.html#the-question",
+    "title": "Local Government Levy Responsiveness",
+    "section": "The question",
+    "text": "The question\nWhen property values rise, do local governments collect proportionately more property-tax revenue? In a levy-first system, governments choose a levy and the tax rate is calculated afterward. Changes in the tax base need not translate mechanically into equivalent changes in revenue."
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html#my-contribution",
+    "href": "projects/levy-responsiveness/index.html#my-contribution",
+    "title": "Local Government Levy Responsiveness",
+    "section": "My contribution",
+    "text": "My contribution\nI constructed a longitudinal panel linking annual tax bases and levies for Cook County municipalities, school districts, townships, and other taxing agencies from 2008 through 2023. I developed identifiers and reconciliation procedures to account for changes in agencies and associated funds over time.\nI built reproducible R workflows and the public replication site supporting the conference-paper analyses. The materials include descriptive analyses, fixed-effects models, asymmetric and lagged specifications, instrumental variables, and robustness checks.\n\n\n\nTwo panels show indexed equalized assessed value and levies from 2008 to 2023 for five types of taxing agencies, with 2008 set to 100.\n\n\nIndexed tax-base and levy series from the project’s descriptive analysis (2008 = 100). Showing both series makes clear why a change in assessed value is not the same thing as a change in total tax revenue."
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html#what-the-analysis-shows",
+    "href": "projects/levy-responsiveness/index.html#what-the-analysis-shows",
+    "title": "Local Government Levy Responsiveness",
+    "section": "What the analysis shows",
+    "text": "What the analysis shows\nThe current project overview reports that tax-base changes are considerably more volatile than levy changes. Estimated contemporaneous responses are small in the pooled ordinary-least-squares specifications; instrumental-variable estimates are smaller and often statistically indistinguishable from zero. Asymmetric and lagged results vary by specification and agency type. The replication site provides the detailed estimates and qualifications."
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html#a-decision-that-matters",
+    "href": "projects/levy-responsiveness/index.html#a-decision-that-matters",
+    "title": "Local Government Levy Responsiveness",
+    "section": "A decision that matters",
+    "text": "A decision that matters\nA taxing agency is not necessarily the same analytical unit from one year to the next. Some agencies change home-rule status; others are created or dissolved. A levy or service provided by one agency in one period may sit with another agency in a different period. Those changes can create large apparent jumps when each agency is followed in isolation.\nUsing a shared tax base and grouping agencies whose geographic coverage overlaps nearly perfectly helps maintain comparable units across those transitions. This reduces discontinuities arising from agencies that exist for only part of the panel, while keeping the focus on the tax base and services represented by the group.\nReassessment timing matters too. Knowing when an area’s property values were reassessed helps distinguish changes in measured tax bases from changes in levy decisions. The analysis incorporates that timing, including in the instrumental-variable specifications."
+  },
+  {
+    "objectID": "projects/levy-responsiveness/index.html#research-outputs",
+    "href": "projects/levy-responsiveness/index.html#research-outputs",
+    "title": "Local Government Levy Responsiveness",
+    "section": "Research outputs",
+    "text": "Research outputs\nThe working research has been presented at conferences, with additional 2026 presentations scheduled. See the presentations list for completed and upcoming events.\nBrowse all projects →"
   }
 ]
