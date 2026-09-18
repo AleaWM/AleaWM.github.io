@@ -1,0 +1,69 @@
+---
+title: "About & CV"
+subtitle: "Public-policy research, with the data work made visible."
+toc: true
+---
+
+I'm Alea Wilbur-Mujtaba, a researcher based in Chicago. I earned my PhD in Public Administration from the University of Illinois Chicago in August 2026. My work brings together public finance, administrative and spatial data, reproducible research, and policy analysis.
+
+I enjoy the parts of research that connect a question to usable evidence: understanding how a government dataset was assembled, reconciling records that do not quite agree, and building tools that make the next analysis easier to reproduce.
+
+::: {.download-panel}
+## Academic CV
+
+My academic CV includes research, publications, teaching, and awards. September 2026 edition.
+
+::: {.actions}
+[Download academic CV (PDF)](files/Alea-Wilbur-Mujtaba-CV.pdf){.btn .btn-outline-primary download=""}
+:::
+:::
+
+## Research experience
+
+**Government Finance Research Center, University of Illinois Chicago**  
+Research Assistant · January 2023–December 2025
+
+Applied property-tax research on residential exemptions and commercial and industrial incentives. My contributions include analytical data pipelines, maps and figures, public replication materials, and automated reporting. I continue technical maintenance of the related research resources.
+
+**Institute of Government and Public Affairs, University of Illinois System**  
+Research Assistant · January 2022–June 2026
+
+Coauthored Fiscal Futures research and developed reproducible workflows to harmonize Illinois fiscal data across years, validate records, and support recurring analysis and publication.
+
+**Doctoral research, University of Illinois Chicago**  
+2019–2026
+
+My dissertation, *Risk Perception and Real Estate Values in Cook County, Illinois*, studies housing-market responses to flood-risk information. [Explore the project](projects/flood-risk/index.qmd).
+
+## Education
+
+**PhD in Public Administration**, University of Illinois Chicago · August 2026
+
+**Master of Public Administration**, University of Illinois Chicago · May 2019  
+Concentrations in Public Management and Financial Management; certificates in Emergency Management and Continuity Planning, and Geospatial Analysis and Visualization.
+
+**BS in Economics with Mathematical Emphasis**, University of Wisconsin–Madison · May 2016  
+Certificate in Environmental Studies.
+
+## Teaching & public service
+
+I designed and taught **Programming and Data Analysis for Public Policy** at UIC in Fall 2021, creating lessons and exercises in programming, data management, analysis, and visualization. I also supported courses in data analytics, policy analysis, and public administration.
+
+My applied government experience includes Chicago's Office of Emergency Management and Communications during the 2020 COVID-19 response and community engagement for the Village of Skokie's five-year Community Development Block Grant Consolidated Plan in 2019. My master's capstone examined congestion on the Chicago River.
+
+## Methods & tools
+
+- **Data and reproducibility:** R, tidyverse, sf, targets, Quarto, Git/GitHub, documentation, validation, and automated reporting.
+- **Analysis:** panel data, fixed effects, difference-in-differences, event studies, instrumental variables, survey analysis, and geospatial analysis.
+- **Additional tools:** ArcGIS Pro, SQL, Tableau, Stata, SPSS, Qualtrics, and Excel.
+
+## Selected recognition
+
+- Climate Tax Fellowship, National Tax Association · 2026 Fall Conference.
+- Ciccarone Public Finance Scholarship, UIC · 2022–2023.
+- ICPSR Summer Program Scholarship · 2022.
+- Certificate of Merit, United States Coast Guard, Marine Safety Unit Chicago · 2019.
+
+## Get in touch
+
+[Email me](mailto:awilbu2@uic.edu) · [LinkedIn](https://www.linkedin.com/in/aleawilbur/) · [GitHub](https://github.com/AleaWM)
