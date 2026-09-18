@@ -3,35 +3,59 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - about.qmd
     - research.qmd
     - fridge.qmd
- 
-
-
+    - projects/index.qmd
+    - projects/*/index.qmd
+  resources:
+    - files/Alea-Wilbur-Mujtaba-CV.pdf
+    - files/illinois-fy2025-expenditure-by-fund-type.csv
 website:
   title: "Alea Wilbur-Mujtaba"
+  description: "Public-policy research, public finance, spatial analysis, and reproducible data projects by Alea Wilbur-Mujtaba."
   navbar:
+    background: light
+    collapse-below: lg
     left:
       - href: index.qmd
-        text: "About"
-      - fridge.qmd
-      - research.qmd
-    right: 
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: research.qmd
+        text: Research & Publications
+      - href: about.qmd
+        text: About & CV
+    right:
       - icon: envelope
-        href: awilbu@uic.edu
+        href: mailto:awilbu2@uic.edu
+        aria-label: Email Alea
       - icon: github
         href: https://github.com/AleaWM
-      
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/aleawilbur/
+        aria-label: LinkedIn
+  page-footer:
+    left: "Alea Wilbur-Mujtaba · Public policy, data & research"
+    right:
+      - text: Get in touch
+        href: mailto:awilbu2@uic.edu
 format:
   html:
-    theme: 
+    theme:
       light: flatly
       dark: darkly
+    css: styles.css
     toc: true
+    toc-depth: 2
+    anchor-sections: true
     code-fold: true
-    code-tools: true
-    code-overflow: wrap
     code-copy: true
-    fig-cap-location: top
-    tbl-cap-location: top
-    df-print: paged
+    link-external-newwindow: true
+    lang: en
+    grid:
+      body-width: 1120px
+      margin-width: 210px
+execute:
+  echo: false
