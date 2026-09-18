@@ -1,109 +1,119 @@
-ptaxincent:
-  title: "Current and Future Use of Incentives in Cook County"
-  authors:
-    - GFRC & CMAP team
-  venue: Government Finance Research Center
-  year: 2025
-  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf?utm_medium=email&utm_source=govdelivery
-  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
-revreport:
-  title: "Current Condition and Future Concerns for Growth in Illinois' State"
-  authors: 
-    - me
-    - David Merriman
-    - Jahun Lee
-    - Xiaoyan Hu
-    - Paula R. Worthington
-  year: 2025
-  venue: Institute of Government and Public Affairs
-  github: https://github.com/igpa-uillinois/Fiscal-Futures
-fy24:
-  title: "State of Illinois' FY 2024 Fiscal Situation: A Solid Performance but Threats Remain"
-  authors: 
-    - me
-    - David Merriman
-    - Jahun Lee
-    - Xiaoyan Hu
-    - Paula R. Worthington
-  year: 2025
-  venue: Institute of Government and Public Affairs
-  github: https://github.com/igpa-uillinois/Fiscal-Futures  
-  preprint_url: https://doi.org/10.25417/uic.29873588
-findbal:
-  title: "Finding the Balance: State Fiscal Sustainability and Local Government Challenges"
-  authors: 
-    - me
-    - Francis Choi
-    - Rick Funderburg
-    - Xiaoyan Hu
-    - Paula R. Worthington
-    - Yonghong Wu
-    - Chen Xie
-    - David Merriman
-  year: 2024
-  venue: Institute of Government and Public Affairs
-  preprint_url: https://ssrn.com/abstract=4832279
-  github: https://github.com/igpa-uillinois/Fiscal-Futures
-wfhil:
-  title: "Working from Home in Illinois: Who Can and Who Does?"
-  authors:
-    - me
-    - Francis Choi
-    - Xiaoyan Hu
-    - David Merriman
-  year: 2024
-  venue: Institute of Government and Public Affairs
-  preprint_url: https://ssrn.com/abstract=4721386
-  github: https://aleawm.github.io/WorkFromHome/
-ptaxexeadend:
-  title: "Extended Analysis of Selected Benefits and Costs"
-  authors:
-    - GFRC & CMAP team
-  venue: Government Finance Research Center 
-  year: 2024
-  preprint_url: https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view
-  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
-ptaxexe:
-  title: "Current and Future Use of Homestead Exemptions"
-  authors:
-    - GFRC & CMAP team
-  venue: Government Finance Research Center
-  year: 2024
-  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf
-  github: https://github.com/uic-gfrc/CookCounty-PropertyTaxes
-opendatamov:
-  title: "What Happened to Illinois' Open Data Movement"
-  year: 2023
-  authors:
-    - Francis Choi
-    - me
-  venue: Institute of Government and Public Affairs
-  preprint_url: https://dx.doi.org/10.2139/ssrn.4563660
-spendfev:
-  title: "Recovering from COVID (Spending) Fever"
-  venue: Institute of Government and Public Affairs
-  authors:
-    - me
-    - Francis Choi
-    - David Merriman
-  year: 2023
-  preprint_url: https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf
-  github: https://github.com/igpa-uillinois/Fiscal-Futures
-fy21:
-  title: "Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds"
-  authors:
-    - Francis Choi
-    - me
-  venue: Institute of Government and Public Affairs
-  year: 2023
-  preprint_url: https://dx.doi.org/10.2139/ssrn.4390729
-unempins:
-  title: "Why does Illinois' Unemployment Insurance Trust Fund have a large deficit?"
-  venue: Institute of Government and Public Affairs
-  authors:
-    - David Merriman
-    - Xiaoyan Hu
-    - me
-  year: 2022
-  preprint_url: https://dx.doi.org/10.2139/ssrn.4198350
-
+publications:
+  - id: "expenditures"
+    title: "Illinois’ State Expenditures: Current Condition and Future Concerns"
+    authors: "Merriman, D., Wilbur-Mujtaba, A., & Lee, J."
+    year: 2026
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.32035311"
+    summary: "Examines Illinois state spending and concerns for future fiscal conditions."
+  - id: "revenue"
+    title: "Current Condition and Future Concerns for Growth in Illinois’ State Revenue"
+    authors: "Wilbur-Mujtaba, A., Merriman, D., Hu, X., Lee, J., & Worthington, P."
+    year: 2025
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.32248659"
+    summary: "Examines the condition and growth prospects of Illinois state revenue."
+  - id: "incentives"
+    title: "The Current and Future Use of Incentives in Cook County"
+    authors: "Drucker, J., Edwards, A., Ginsberg, E., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A."
+    year: 2025
+    type: "report"
+    venue: "Cook County Property Tax Reform Group"
+    url: "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-12/CMAP-UIC_Incentives%20Report_December%202025.pdf"
+    summary: "Research on commercial and industrial property-tax incentives."
+    project: "projects/property-tax/index.html"
+  - id: "fy2024"
+    title: "The State of Illinois’ FY 2024 Fiscal Situation: A Solid Performance but Threats Remain"
+    authors: "Merriman, D., Funderburg, R., Hu, X., Lee, J., Wilbur-Mujtaba, A., & Worthington, P."
+    year: 2025
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.29873588"
+    summary: "An assessment of Illinois fiscal performance and continuing risks."
+  - id: "balance"
+    title: "Finding the Balance: State Fiscal Sustainability and Local Government Challenges"
+    authors: "Wilbur-Mujtaba, A., Choi, F., Funderburg, R., Hu, X., Worthington, P. R., Wu, Y., Xie, C., & Merriman, D."
+    year: 2024
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.26195198"
+  - id: "benefits-costs"
+    title: "Extended Analysis of Selected Benefits and Costs"
+    authors: "Drucker, J., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A."
+    year: 2024
+    type: "report"
+    venue: "Government Finance Research Center"
+    url: "https://drive.google.com/file/d/1VW-IxHzSPVkjL7Eea7SmudeSTM9o27Uz/view"
+    project: "projects/property-tax/index.html"
+  - id: "remote-work"
+    title: "Working from Home in Illinois: Who Can and Does?"
+    authors: "Wilbur-Mujtaba, A., Choi, F., Hu, X., & Merriman, D."
+    year: 2024
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.26018719"
+    summary: "Research on the capacity for remote work and observed work-from-home patterns."
+    website: "https://aleawm.github.io/WorkFromHome/"
+  - id: "homestead"
+    title: "Current and Future Use of Homestead Exemptions"
+    authors: "Drucker, J., Merriman, D., Van Hulle, M., Weber, R., & Wilbur-Mujtaba, A."
+    year: 2023
+    type: "report"
+    venue: "Government Finance Research Center"
+    url: "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2024-03/CMAP-UIC_Exemptions%20Briefing%20Paper%20Final.pdf"
+    project: "projects/property-tax/index.html"
+  - id: "open-data"
+    title: "What Happened to Illinois’ Open Data Movement"
+    authors: "Choi, F., & Wilbur-Mujtaba, A."
+    year: 2023
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.24093753"
+  - id: "covid-spending"
+    title: "Recovering from COVID (Spending) Fever"
+    authors: "Wilbur-Mujtaba, A., Choi, F., & Merriman, D."
+    year: 2023
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.22296901"
+    project: "projects/fiscalfutures/index.html"
+  - id: "fy2021"
+    title: "Fiscal Futures 2021: Maintaining Fiscal Sustainability After an Influx of Federal Funds"
+    authors: "Choi, F., & Wilbur-Mujtaba, A."
+    year: 2023
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.22296895"
+  - id: "unemployment"
+    title: "Why Does Illinois’ Unemployment Insurance Trust Fund Have a Large Deficit?"
+    authors: "Merriman, D., Hu, X., & Wilbur-Mujtaba, A."
+    year: 2022
+    type: "report"
+    venue: "Institute of Government and Public Affairs"
+    url: "https://doi.org/10.25417/uic.20559039"
+  - id: "tax-relief"
+    title: "The Push-and-Pull of Property Tax Relief: Who Pays for Exemptions and Incentives?"
+    authors: "Drucker, J., Weber, R., Van Hulle, M., & Wilbur-Mujtaba, A."
+    year: 2026
+    type: "manuscript"
+    venue: "Urban Affairs Review"
+    status: "Revised and resubmitted; under review"
+    project: "projects/property-tax/index.html"
+  - id: "levy"
+    title: "Measuring Local Government Levies’ Responsiveness to the Property Tax Base"
+    authors: "Merriman, D., & Wilbur-Mujtaba, A."
+    year: 2026
+    type: "working"
+    venue: "Working research"
+    website: "https://aleawm.github.io/Levy_Elasticity/"
+    project: "projects/levy-responsiveness/index.html"
+  - id: "dissertation"
+    title: "Risk Perception and Real Estate Values in Cook County, Illinois"
+    authors: "Wilbur-Mujtaba, A."
+    year: 2026
+    type: "dissertation"
+    venue: "Doctoral dissertation, University of Illinois Chicago"
+    website: "https://aleawm.github.io/dissertation/"
+    project: "projects/flood-risk/index.html"
