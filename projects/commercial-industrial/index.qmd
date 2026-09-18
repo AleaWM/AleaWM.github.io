@@ -1,0 +1,51 @@
+---
+title: "From Parcels to Development Projects"
+description: "Connecting related PINs into documented commercial and industrial developments, with a searchable public website."
+image: "/images/portfolio/development-groups.png"
+image-alt: "From Parcels to Development Projects research illustration"
+categories:
+  - "Data engineering"
+  - "Research tools"
+order: 3
+toc: true
+---
+
+[← All projects](/projects/index.qmd){.back-link}
+
+::: {.project-summary}
+**My role:** Creator & lead developer  
+**Context:** Independent research data project · Cook County, Illinois  
+**Methods & tools:** R · Quarto · Administrative data · Automated reports
+:::
+
+::: {.actions}
+[Browse projects](https://aleawm.github.io/incentive-properties/){.btn .btn-outline-primary}
+[View code](https://github.com/AleaWM/incentive-properties){.btn .btn-outline-primary}
+[Archived dataset](https://doi.org/10.5281/zenodo.21324424){.btn .btn-outline-primary}
+:::
+
+## The problem
+
+A Property Index Number (PIN) identifies a parcel, but a commercial or industrial development can span several parcels. Treating every PIN as an independent project can obscure the development being studied.
+
+## What I built
+
+I created a project-level research database by extracting historical commercial and industrial PINs from PTAXSIM and linking related parcels. Evidence comes from ownership, parcel proximity, buyer and seller names, sale document numbers, appeal records, valuation worksheets, and transaction records, with manual review where the records are ambiguous.
+
+I built R and Quarto workflows that turn these decisions into detailed project documentation. Parameterized reports organize the material by township and municipality, and the public website supports geographic browsing and searches for individual PINs and projects.
+
+![Elk Grove township parcels colored by the manually coded project identifier, grouping related PINs into developments.](/images/portfolio/development-groups.png)
+
+*Elk Grove township parcels grouped by manually coded project identifiers (keypins). Colors distinguish the groups assembled using appeal IDs, sale documents, proximity, and other evidence. The colors identify groups; they do not encode a numerical measure.*
+
+## A decision that matters
+
+The unit of analysis has to match the research question. Proximity alone does not establish that two parcels are one project. Combining independent pieces of evidence—and retaining documentation of ambiguous cases—makes the grouping decisions easier to review and revise.
+
+## What the public site adds
+
+The website lets a reader move from a geographic area to specific projects and the records supporting them. The documentation is part of the research product: it explains how parcel-level administrative records became development-level data.
+
+This project grew out of the same property-tax research environment as the [Cook County reform work](/projects/property-tax/index.qmd), but addresses a distinct data-construction problem.
+
+[Browse all projects →](/projects/index.qmd){.text-link}

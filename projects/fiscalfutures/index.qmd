@@ -1,0 +1,65 @@
+---
+title: "Fiscal Futures"
+description: "Data, methodology, and reproducible reporting behind recurring research on Illinois state finances."
+image: "/images/portfolio/fiscal-methodology.png"
+image-alt: "Fiscal Futures research illustration"
+categories:
+  - "State budgets"
+  - "Reproducibility"
+order: 5
+toc: true
+---
+
+[← All projects](/projects/index.qmd){.back-link}
+
+::: {.project-summary}
+**My role:** Repository creator & lead developer; report coauthor  
+**Context:** Institute of Government and Public Affairs · University of Illinois System  
+**Methods & tools:** R · Fiscal data harmonization · Quarto · GitHub
+:::
+
+::: {.actions}
+[Explore the methodology](https://igpa-uillinois.github.io/Fiscal-Futures/){.btn .btn-outline-primary}
+[View code](https://github.com/igpa-uillinois/Fiscal-Futures){.btn .btn-outline-primary}
+[Archived materials](https://doi.org/10.5281/zenodo.18927706){.btn .btn-outline-primary}
+:::
+
+## The question
+
+How do Illinois' revenues and expenditures change over time, and what do those trends imply for the state's fiscal condition? Fiscal Futures combines recurring policy research with the less visible work of making annual fiscal records comparable.
+
+## My contribution
+
+I coauthored Fiscal Futures research and created the public data, code, and methodology infrastructure supporting the annual analysis. I rebuilt inherited workflows in R, reviewed historical coding decisions, corrected identified inconsistencies, and documented procedures for future updates.
+
+The data work includes tracking changes in agencies, funds, revenue sources, and classification systems. Reused fund numbers and reorganizations require more than stacking annual files: the meaning of a record must be considered alongside its identifier.
+
+## A public methodology resource
+
+[![The Fiscal Futures methodology website, showing documented topics including revenue, transfers, Medicaid, debt, pensions, healthcare, refunds, education, and data cleaning.](/images/portfolio/fiscal-methodology.png)](https://igpa-uillinois.github.io/Fiscal-Futures/)
+
+The methodology site documents the subjects behind the annual totals: own-source and federal revenue, local transfers, Medicaid, debt, pensions, healthcare, refunds, education, COVID funding, and the decisions involved in gathering and cleaning the data. The screenshot shows the breadth of that documentation; the [live site](https://igpa-uillinois.github.io/Fiscal-Futures/) provides the detailed chapters and code.
+
+## Making annual research maintainable
+
+I developed a public Quarto website with downloadable data, code, methodology, and guidance for future annual updates. The goal is to let a future researcher understand how totals were constructed and where a change in source data requires a decision.
+
+## A decision that matters
+
+A fiscal measure depends on its inclusion rules. Transfers and other accounting flows need to be handled deliberately to interpret revenues and expenditures. Documenting those rules makes the difference between reproducing a chart and understanding what it measures.
+
+## Selected report visualizations
+
+Some research questions call for a figure built specifically for one report. These visualizations are another part of my contribution, alongside the recurring data and methodology work.
+
+![Sankey diagrams tracing federal COVID funding received by Illinois and the allocation of State CURE funding across years and uses.](/images/portfolio/federal-funding.png)
+
+These Sankey diagrams trace how COVID-era federal funding moved from its sources through receipt years and spending or allocation categories, including flows involving different agencies and programs. Following those connections helps explain where the money went in a way that a single annual total cannot. The figures describe the historical report analysis, rather than the current state budget.
+
+[Read Recovering from COVID (Spending) Fever](https://doi.org/10.25417/uic.22296901).
+
+## Related work
+
+See [Research & Publications](/research.qmd#policy-reports) for reports on fiscal conditions, revenue growth, and state expenditures. My separate [Illinois State Budget Research Dataset](/projects/illinois-budget/index.qmd) retains additional records for broader research questions.
+
+[Browse all projects →](/projects/index.qmd){.text-link}

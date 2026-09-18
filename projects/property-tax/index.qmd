@@ -1,0 +1,55 @@
+---
+title: "Cook County Property Tax Reform"
+description: "Reproducible analysis of exemptions, incentives, and who bears the property-tax burden."
+image: "/images/portfolio/property-tax.png"
+image-alt: "Cook County Property Tax Reform research illustration"
+categories:
+  - "Public finance"
+  - "Policy analysis"
+order: 2
+toc: true
+---
+
+[← All projects](/projects/index.qmd){.back-link}
+
+::: {.project-summary}
+**My role:** Lead data & reproducibility developer  
+**Context:** Government Finance Research Center · UIC  
+**Methods & tools:** R · PTAXSIM · Quarto · GitHub Pages
+:::
+
+::: {.actions}
+[Explore the project](https://uic-gfrc.github.io/CookCounty-PropertyTaxes/){.btn .btn-outline-primary}
+[View code](https://github.com/uic-gfrc/CookCounty-PropertyTaxes){.btn .btn-outline-primary}
+[Archived materials](https://doi.org/10.5281/zenodo.17634402){.btn .btn-outline-primary}
+:::
+
+## The question
+
+How do residential exemptions and commercial and industrial incentives change the property-tax base and the distribution of tax burdens? This collaborative research supported the Cook County President's Property Tax Reform Group.
+
+## My contribution
+
+I developed the data and reproducibility infrastructure supporting the team's analysis. I identified relevant PTAXSIM tables and county administrative records, then built R workflows to clean, join, reshape, aggregate, and summarize property-level information.
+
+Those workflows construct variables for examining tax bases, bills, exemptions, and incentive classifications. I also created the public replication website and codebase, connecting published findings to the analyses, tables, and figures behind them.
+
+![Comparison of residential properties' current share of the levy and their share under a scenario without exemptions, across selected Cook County municipalities.](/images/portfolio/property-tax.png)
+
+*An example from the property-tax work: the residential share of the levy under current conditions and a scenario without exemptions. The chart groups municipalities with different land-use compositions to help explain why the distributional implications vary.*
+
+## From one report to repeatable analysis
+
+I developed parameterized reporting workflows to update key results by geography and fiscal year as new administrative data became available. My continuing technical work includes corrections, documentation, data updates, and site maintenance.
+
+One useful component automates the calculation of tax rates, levies, and taxable equalized assessed value across geographies from PTAXSIM tables. [See the calculation workflow](https://github.com/uic-gfrc/CookCounty-PropertyTaxes/blob/main/scripts/ptax_pull_loop_newmethod.R).
+
+## A decision that matters
+
+An exemption's effect depends on the surrounding tax system and tax base. Showing both the scenario and the geography makes the result more interpretable than a single countywide total. Reproducible reporting also makes it possible to revisit the analysis as the underlying records change.
+
+## Related reports
+
+The work includes reports on homestead exemptions, extended benefits and costs, and commercial and industrial incentives. [Find the full citations on Research & Publications](/research.qmd#policy-reports).
+
+[Browse all projects →](/projects/index.qmd){.text-link}

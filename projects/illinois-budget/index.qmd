@@ -1,0 +1,100 @@
+---
+title: "Illinois State Budget Research Dataset"
+description: "Harmonized revenue and expenditure records for FY1998–2026, with reusable classifications and documented decisions."
+image: "/images/portfolio/budget-workflow.svg"
+image-alt: "Illinois State Budget Research Dataset research illustration"
+categories:
+  - "Open data"
+  - "Data engineering"
+order: 6
+toc: true
+---
+
+[← All projects](/projects/index.qmd){.back-link}
+
+::: {.project-summary}
+**My role:** Creator & lead data developer  
+**Context:** Independent research data project · Illinois  
+**Methods & tools:** R · Administrative data · Classification · Quality control
+:::
+
+::: {.actions}
+[Explore data & documentation](https://github.com/AleaWM/Illinois_State_Budget_Dataset){.btn .btn-outline-primary}
+[Archived dataset](https://doi.org/10.5281/zenodo.22804579){.btn .btn-outline-primary}
+:::
+
+## Bringing the records together
+
+Illinois publishes fiscal information across annual reports, budget books, spreadsheets, and searchable portals. The [Comptroller's appropriation tool](https://appropreport.illinoiscomptroller.gov/) supports fiscal-year and agency-level queries; [GOMB's budget books and data files](https://budget.illinois.gov/budget-books.html) are organized by budget year. These resources serve different purposes, and using them for longitudinal research still requires assembling and reconciling records across years.
+
+I built this project to put that work in one place: consolidated revenue and expenditure datasets spanning **FY1998–2026**, with expenditures at the **agency–object–appropriation level** and revenues at the **revenue-source level**, retaining fund and agency identifiers. Researchers can work across years without starting over with individual annual files or rebuilding the same labels and classifications.
+
+## More detail for independent research
+
+The dataset extends the detail available in Fiscal Futures totals and summary tables. It retains observations beyond those selected for that reporting program and brings together fund types, appropriation labels, object labels, and analytical categories across years.
+
+I developed classifications to make comparisons with **GOMB and COGFA** reporting easier, and added an `item_detail` field describing pension, healthcare, and other items that may be useful for a particular research question. Those categories are research tools: they help users select, compare, and aggregate records while preserving the detail needed to investigate individual items.
+
+![Workflow from annual Comptroller files through identifier reconciliation and classification to separate revenue and expenditure research datasets.](/images/portfolio/budget-workflow.svg)
+
+## What is in the datasets?
+
+These are selected fields in the September 16, 2026 exports. The repository contains the data and construction notes.
+
+::: {.table-scroll tabindex="0" role="region" aria-label="Dataset fields"}
+
+| Detail | Expenditure fields | Revenue fields |
+|---|---|---|
+| Fiscal year | `fy` | `fy` |
+| Fund identifiers and labels | `fund`, `fund_re`, `fund_name_ab` | `fund`, `fund_re`, `fund_name_ab` |
+| Fund type | `fund_category`, `fund_cat_name` | `fund_category`, `fund_cat_name` |
+| Agency | `agency`, `agency_name` | `agency` |
+| Appropriation organization and labels | `appr_org`, `org_name`, `wh_approp_name`, `approp_number` | — |
+| Object and appropriation components | `object`, `obj_of_exp`, `obj_seq_type`, `sequence`, `type` | — |
+| Revenue source and labels | — | `source`, `source_name`, `source_name_AWM` |
+| Analytical classifications | `group`, `group_name`, `item_detail`, `pension` | `rev_type`, `rev_type_name`, `rev_type_name_COMPTROLLER` |
+| Amount | `expenditure` | `receipts` |
+
+:::
+
+The exact labels and classifications are documented alongside the code. For example, `wh_approp_name` supplies appropriation wording, while `group_name` and `item_detail` provide additional analytical groupings and descriptions.
+
+## An example: spending by fund type
+
+![Horizontal bar chart of FY2025 expenditure totals by fund type, calculated from the September 16, 2026 research dataset export.](/images/portfolio/budget-fund-types.svg)
+
+This example groups FY2025 expenditure records by `fund_cat_name`. It illustrates the detail available for independent analysis rather than an annual Fiscal Futures summary table. Amounts are nominal dollars; fund labels differing only in capitalization are combined.
+
+[Download the chart data (CSV)](/files/illinois-fy2025-expenditure-by-fund-type.csv).
+
+::: {.callout-tip}
+## Other questions the data can support
+
+- Which expenditure objects or appropriation lines account for the largest amounts?
+- How has spending from different fund types changed over time?
+- How do analytical groups compare with GOMB or COGFA categories?
+- Which pension or healthcare items are identifiable through `item_detail`?
+:::
+
+### Reproduce a grouping in R
+
+```{.r}
+library(dplyr)
+library(readr)
+
+expenditures <- read_csv("budget_data_exp_2026-09-16.csv")
+
+# Annual spending by the dataset's analytical group.
+by_group <- expenditures |>
+  group_by(fy, group_name) |>
+  summarise(expenditure = sum(expenditure, na.rm = TRUE), .groups = "drop")
+
+# Use fund_cat_name instead of group_name for a fund-type comparison,
+# or inspect item_detail to focus on a particular pension/healthcare item.
+```
+
+## Research outputs
+
+The repository provides the expenditure and revenue datasets, data-construction code, classifications, and annual-update guidance. The companion [Fiscal Futures project](/projects/fiscalfutures/index.qmd) explains the methodology used for that reporting program.
+
+[Browse all projects →](/projects/index.qmd){.text-link}

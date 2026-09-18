@@ -1,0 +1,56 @@
+---
+title: "Local Government Levy Responsiveness"
+description: "Building a panel of taxing agencies to examine how levies respond to changes in the property-tax base."
+image: "/images/portfolio/levy-trends.png"
+image-alt: "Local Government Levy Responsiveness research illustration"
+categories:
+  - "Panel data"
+  - "Public finance"
+order: 4
+toc: true
+---
+
+[← All projects](/projects/index.qmd){.back-link}
+
+::: {.project-summary}
+**My role:** Data developer & replication-site developer  
+**Context:** Research with David Merriman · Cook County, 2008–2023  
+**Methods & tools:** R · Fixed effects · Instrumental variables · Quarto
+:::
+
+::: {.actions}
+[Explore the research](https://aleawm.github.io/Levy_Elasticity/){.btn .btn-outline-primary}
+[View code](https://github.com/AleaWM/Levy_Elasticity){.btn .btn-outline-primary}
+:::
+
+## The question
+
+When property values rise, do local governments collect proportionately more property-tax revenue? In a levy-first system, governments choose a levy and the tax rate is calculated afterward. Changes in the tax base need not translate mechanically into equivalent changes in revenue.
+
+## My contribution
+
+I constructed a longitudinal panel linking annual tax bases and levies for Cook County municipalities, school districts, townships, and other taxing agencies from 2008 through 2023. I developed identifiers and reconciliation procedures to account for changes in agencies and associated funds over time.
+
+I built reproducible R workflows and the public replication site supporting the conference-paper analyses. The materials include descriptive analyses, fixed-effects models, asymmetric and lagged specifications, instrumental variables, and robustness checks.
+
+![Two panels show indexed equalized assessed value and levies from 2008 to 2023 for five types of taxing agencies, with 2008 set to 100.](/images/portfolio/levy-trends.png)
+
+*Indexed tax-base and levy series from the project's descriptive analysis (2008 = 100). Showing both series makes clear why a change in assessed value is not the same thing as a change in total tax revenue.*
+
+## What the analysis shows
+
+The current project overview reports that tax-base changes are considerably more volatile than levy changes. Estimated contemporaneous responses are small in the pooled ordinary-least-squares specifications; instrumental-variable estimates are smaller and often statistically indistinguishable from zero. Asymmetric and lagged results vary by specification and agency type. The replication site provides the detailed estimates and qualifications.
+
+## A decision that matters
+
+A taxing agency is not necessarily the same analytical unit from one year to the next. Some agencies change home-rule status; others are created or dissolved. A levy or service provided by one agency in one period may sit with another agency in a different period. Those changes can create large apparent jumps when each agency is followed in isolation.
+
+Using a shared tax base and grouping agencies whose geographic coverage overlaps nearly perfectly helps maintain comparable units across those transitions. This reduces discontinuities arising from agencies that exist for only part of the panel, while keeping the focus on the tax base and services represented by the group.
+
+Reassessment timing matters too. Knowing when an area's property values were reassessed helps distinguish changes in measured tax bases from changes in levy decisions. The analysis incorporates that timing, including in the instrumental-variable specifications.
+
+## Research outputs
+
+The working research has been presented at conferences, with additional 2026 presentations scheduled. [See the presentations list](/research.qmd#presentations) for completed and upcoming events.
+
+[Browse all projects →](/projects/index.qmd){.text-link}
